@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table
+END
+ng-table.css
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/ng-table.css
+END
+.bowerrc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/.bowerrc
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/LICENSE
+END
+bower.json
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/bower.json
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/.travis.yml
+END
+ng-table.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/ng-table.min.js
+END
+karma.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/karma.conf.js
+END
+.editorconfig
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/.editorconfig
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/README.md
+END
+ng-table.less
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/ng-table.less
+END
+.jshintrc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/.jshintrc
+END
+ng-table.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/ng-table.min.css
+END
+package.json
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/package.json
+END
+ng-table.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/ng-table.js
+END
+ng-table.map
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/ng-table.map
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/.gitignore
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/CONTRIBUTING.md
+END
+Gruntfile.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/batchship/!svn/ver/200/branches/batchship-2.0/js/ng-table/Gruntfile.js
+END

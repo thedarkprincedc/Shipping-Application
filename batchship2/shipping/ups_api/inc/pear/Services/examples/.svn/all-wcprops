@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples
+END
+feature-item_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/feature-item_search.php
+END
+add_new_item.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/add_new_item.php
+END
+add_new_item-mass.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/add_new_item-mass.php
+END
+lookup_data.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/lookup_data.php
+END
+lookup_data-mass.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/lookup_data-mass.php
+END
+store_item_data.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/store_item_data.php
+END
+feature-field_format.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/feature-field_format.php
+END
+store_item_data-mass.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/store_item_data-mass.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/config.php
+END
+execute_business_rules.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/execute_business_rules.php
+END
+execute_business_rules-mass.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/execute_business_rules-mass.php
+END
+feature-data_array_format.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/examples/feature-data_array_format.php
+END

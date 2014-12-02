@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Dataset
+END
+Sequential.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Dataset/Sequential.php
+END
+Trivial.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Dataset/Trivial.php
+END
+Random.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Dataset/Random.php
+END
+Function.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Dataset/Function.php
+END
+VectorFunction.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Dataset/VectorFunction.php
+END

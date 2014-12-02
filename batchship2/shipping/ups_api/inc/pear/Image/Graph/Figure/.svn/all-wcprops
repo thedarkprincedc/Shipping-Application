@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Figure
+END
+Ellipse.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Figure/Ellipse.php
+END
+Circle.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Figure/Circle.php
+END
+Rectangle.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Figure/Rectangle.php
+END
+Polygon.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Figure/Polygon.php
+END

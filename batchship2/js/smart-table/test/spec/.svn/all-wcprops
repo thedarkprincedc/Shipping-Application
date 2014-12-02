@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/batchship/!svn/ver/200/branches/batchship-2.0/js/smart-table/test/spec
+END
+stSearch.spec.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/200/branches/batchship-2.0/js/smart-table/test/spec/stSearch.spec.js
+END
+stSelectRow.spec.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/200/branches/batchship-2.0/js/smart-table/test/spec/stSelectRow.spec.js
+END
+stSort.spec.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/200/branches/batchship-2.0/js/smart-table/test/spec/stSort.spec.js
+END
+stTable.spec.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/200/branches/batchship-2.0/js/smart-table/test/spec/stTable.spec.js
+END
+stPagination.spec.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/200/branches/batchship-2.0/js/smart-table/test/spec/stPagination.spec.js
+END
+stPipe.spec.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/200/branches/batchship-2.0/js/smart-table/test/spec/stPipe.spec.js
+END

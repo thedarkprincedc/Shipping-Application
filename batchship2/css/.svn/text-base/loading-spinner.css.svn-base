@@ -1,0 +1,474 @@
+.container-1 {
+
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation-name: animation-1;
+  -webkit-animation-name: animation-1;
+  -moz-animation-name: animation-1;
+  -ms-animation-name: animation-1;
+  -o-animation-name: animation-1;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -ms-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+.container-1.bis {
+  top: 200px;
+  text-align: center;
+}
+.container-1 .item-1 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #2ecc71;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-1 .item-2 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #3498db;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-1 .item-3 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #9b59b6;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-1 .item-4 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #e67e22;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-1 .item-5 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #c0392b;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-1 .item-6 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #e74c3c;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-1 .item-1 {
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+.container-1 .item-2 {
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.container-1 .item-3 {
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+.container-1 .item-4 {
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+.container-1 .item-5 {
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.container-1 .item-6 {
+  -moz-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  -webkit-transform: rotate(240deg);
+  transform: rotate(240deg);
+}
+.container-1 .item-7 {
+  -moz-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  -webkit-transform: rotate(300deg);
+  transform: rotate(300deg);
+}
+
+.container-2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation-name: animation-1;
+  -webkit-animation-name: animation-1;
+  -moz-animation-name: animation-1;
+  -ms-animation-name: animation-1;
+  -o-animation-name: animation-1;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -ms-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+.container-2.bis {
+  top: 200px;
+  text-align: center;
+}
+.container-2 .item-1 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #2ecc71;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-2 .item-2 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #3498db;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-2 .item-3 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #9b59b6;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-2 .item-4 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #e67e22;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-2 .item-5 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #c0392b;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-2 .item-6 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #e74c3c;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-2 .item-1 {
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.container-2 .item-2 {
+  -moz-transform: rotate(420deg);
+  -ms-transform: rotate(420deg);
+  -webkit-transform: rotate(420deg);
+  transform: rotate(420deg);
+}
+.container-2 .item-3 {
+  -moz-transform: rotate(480deg);
+  -ms-transform: rotate(480deg);
+  -webkit-transform: rotate(480deg);
+  transform: rotate(480deg);
+}
+.container-2 .item-4 {
+  -moz-transform: rotate(540deg);
+  -ms-transform: rotate(540deg);
+  -webkit-transform: rotate(540deg);
+  transform: rotate(540deg);
+}
+.container-2 .item-5 {
+  -moz-transform: rotate(600deg);
+  -ms-transform: rotate(600deg);
+  -webkit-transform: rotate(600deg);
+  transform: rotate(600deg);
+}
+.container-2 .item-6 {
+  -moz-transform: rotate(660deg);
+  -ms-transform: rotate(660deg);
+  -webkit-transform: rotate(660deg);
+  transform: rotate(660deg);
+}
+.container-2 .item-7 {
+  -moz-transform: rotate(720deg);
+  -ms-transform: rotate(720deg);
+  -webkit-transform: rotate(720deg);
+  transform: rotate(720deg);
+}
+
+.container-3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation-name: animation-1;
+  -webkit-animation-name: animation-1;
+  -moz-animation-name: animation-1;
+  -ms-animation-name: animation-1;
+  -o-animation-name: animation-1;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -ms-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+.container-3.bis {
+  top: 200px;
+  text-align: center;
+}
+.container-3 .item-1 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #2ecc71;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-3 .item-2 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #3498db;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-3 .item-3 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #9b59b6;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-3 .item-4 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #e67e22;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-3 .item-5 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #c0392b;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-3 .item-6 span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #e74c3c;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.container-3 .item-1 {
+  -moz-transform: rotate(780deg);
+  -ms-transform: rotate(780deg);
+  -webkit-transform: rotate(780deg);
+  transform: rotate(780deg);
+}
+.container-3 .item-2 {
+  -moz-transform: rotate(840deg);
+  -ms-transform: rotate(840deg);
+  -webkit-transform: rotate(840deg);
+  transform: rotate(840deg);
+}
+.container-3 .item-3 {
+  -moz-transform: rotate(900deg);
+  -ms-transform: rotate(900deg);
+  -webkit-transform: rotate(900deg);
+  transform: rotate(900deg);
+}
+.container-3 .item-4 {
+  -moz-transform: rotate(960deg);
+  -ms-transform: rotate(960deg);
+  -webkit-transform: rotate(960deg);
+  transform: rotate(960deg);
+}
+.container-3 .item-5 {
+  -moz-transform: rotate(1020deg);
+  -ms-transform: rotate(1020deg);
+  -webkit-transform: rotate(1020deg);
+  transform: rotate(1020deg);
+}
+.container-3 .item-6 {
+  -moz-transform: rotate(1080deg);
+  -ms-transform: rotate(1080deg);
+  -webkit-transform: rotate(1080deg);
+  transform: rotate(1080deg);
+}
+.container-3 .item-7 {
+  -moz-transform: rotate(1140deg);
+  -ms-transform: rotate(1140deg);
+  -webkit-transform: rotate(1140deg);
+  transform: rotate(1140deg);
+}
+
+.container-1 {
+  left: 400px;
+}
+
+.container-2 {
+  left: 0;
+}
+
+.container-3 {
+  left: -400px;
+}
+
+@-webkit-keyframes animation-1 {
+  from {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(3600deg);
+    -ms-transform: rotate(3600deg);
+    -webkit-transform: rotate(3600deg);
+    transform: rotate(3600deg);
+  }
+}
+@-moz-keyframes animation-1 {
+  from {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(3600deg);
+    -ms-transform: rotate(3600deg);
+    -webkit-transform: rotate(3600deg);
+    transform: rotate(3600deg);
+  }
+}
+@-ms-keyframes animation-1 {
+  from {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(3600deg);
+    -ms-transform: rotate(3600deg);
+    -webkit-transform: rotate(3600deg);
+    transform: rotate(3600deg);
+  }
+}
+@keyframes animation-1 {
+  from {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(3600deg);
+    -ms-transform: rotate(3600deg);
+    -webkit-transform: rotate(3600deg);
+    transform: rotate(3600deg);
+  }
+}

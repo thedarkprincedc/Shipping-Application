@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples
+END
+contents.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/contents.html
+END
+gmail.phps
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/gmail.phps
+END
+mailing_list.phps
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/mailing_list.phps
+END
+LGPLv3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/LGPLv3.txt
+END
+sendmail.phps
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/sendmail.phps
+END
+code_generator.phps
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/code_generator.phps
+END
+smtp_no_auth.phps
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/smtp_no_auth.phps
+END
+exceptions.phps
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/exceptions.phps
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/index.html
+END
+mail.phps
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/mail.phps
+END
+pop_before_smtp.phps
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/pop_before_smtp.phps
+END
+smtp.phps
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/examples/smtp.phps
+END

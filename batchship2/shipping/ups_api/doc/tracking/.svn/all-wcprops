@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/doc/tracking
+END
+TrackResponse.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/doc/tracking/TrackResponse.xsd
+END
+Track_SampleResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/doc/tracking/Track_SampleResponse.xml
+END
+TrackRequest.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/doc/tracking/TrackRequest.xsd
+END
+Track_Tool_06_16_08.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/doc/tracking/Track_Tool_06_16_08.pdf
+END
+Track_SampleRequest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/doc/tracking/Track_SampleRequest.xml
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/XML/Beautifier
+END
+Tokenizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/XML/Beautifier/Tokenizer.php
+END
+Renderer.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/XML/Beautifier/Renderer.php
+END

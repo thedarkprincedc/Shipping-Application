@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log
+END
+error_log.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/error_log.php
+END
+win.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/win.php
+END
+sql.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/sql.php
+END
+sqlite.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/sqlite.php
+END
+console.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/console.php
+END
+composite.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/composite.php
+END
+daemon.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/daemon.php
+END
+display.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/display.php
+END
+null.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/null.php
+END
+mcal.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/mcal.php
+END
+file.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/file.php
+END
+syslog.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/syslog.php
+END
+mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/mail.php
+END
+mdb2.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/mdb2.php
+END
+observer.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Log/observer.php
+END

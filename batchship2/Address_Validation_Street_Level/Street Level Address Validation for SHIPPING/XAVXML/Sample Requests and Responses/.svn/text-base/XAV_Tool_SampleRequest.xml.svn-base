@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+  <AccessLicenseNumber>YourLicenseNumber</AccessLicenseNumber>
+  <UserId>YourUserID</UserId>
+  <Password>YourPassword</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<AddressValidationRequest xml:lang="en-US">
+  <Request>
+    <TransactionReference>
+      <CustomerContext>Your Test Case Summary Description</CustomerContext>
+      <XpciVersion>1.0</XpciVersion>
+    </TransactionReference>
+    <RequestAction>XAV</RequestAction>
+    <RequestOption>3</RequestOption>
+  </Request>
+  
+  <AddressKeyFormat>
+    <AddressLine>AIRWAY ROAD SUITE 7</AddressLine>	
+    <PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+	<PoliticalDivision1>CA</PoliticalDivision1>
+    <PostcodePrimaryLow>92154</PostcodePrimaryLow>
+    <CountryCode>US</CountryCode>
+  </AddressKeyFormat>
+</AddressValidationRequest>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/batchship/!svn/ver/158/branches/batchship-2.0/templates
+END
+ManageEventLog.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/batchship/!svn/ver/126/branches/batchship-2.0/templates/ManageEventLog.html
+END
+Loading.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/batchship/!svn/ver/179/branches/batchship-2.0/templates/Loading.html
+END
+ValidateAddress.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/batchship/!svn/ver/212/branches/batchship-2.0/templates/ValidateAddress.html
+END
+Login.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/batchship/!svn/ver/157/branches/batchship-2.0/templates/Login.html
+END
+ThirdPartyModifyAddress.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/172/branches/batchship-2.0/templates/ThirdPartyModifyAddress.html
+END
+ThirdPartyAddAddress.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/batchship/!svn/ver/172/branches/batchship-2.0/templates/ThirdPartyAddAddress.html
+END

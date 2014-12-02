@@ -1,0 +1,43 @@
+10
+
+dir
+159
+http://svn.fcp.biz/batchship/branches/batchship-2.0/shipping/ups_api/doc
+http://svn.fcp.biz/batchship
+
+
+
+2014-06-25T19:56:30.736147Z
+129
+bmosley
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+78e59624-3317-42ae-98a1-8a409f56a69b
+
+address_validation
+dir
+
+rates_and_service
+dir
+
+tracking
+dir
+
+time_in_transit
+dir
+
+phpdoc
+dir
+

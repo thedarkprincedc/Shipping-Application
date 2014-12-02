@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot
+END
+Radar.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/Radar.php
+END
+Step.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/Step.php
+END
+Pie.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/Pie.php
+END
+Impulse.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/Impulse.php
+END
+Odo.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/Odo.php
+END
+Band.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/Band.php
+END
+Bar.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/Bar.php
+END
+CandleStick.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/CandleStick.php
+END
+BoxWhisker.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/BoxWhisker.php
+END
+Dot.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/Dot.php
+END
+Line.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/Line.php
+END
+Area.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph/Plot/Area.php
+END

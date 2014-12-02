@@ -1,0 +1,22 @@
+{
+    "application": {
+        "name": "BatchShip II",
+        "version": "2.0.0",
+        "email": "bmosley@fcp.biz"
+    },
+    "menu": [
+        {
+            "name": "Manage Shipping Accounts",
+            "url": "/ManageShipping"
+        },
+        {
+            "name": "Help",
+            "url": "/Help"
+        }
+    ],
+    "logos": 
+    {
+        "fedex": "./content/fedex_logo.gif"
+
+    }
+}

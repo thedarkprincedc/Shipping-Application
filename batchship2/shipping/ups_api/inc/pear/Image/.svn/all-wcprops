@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image
+END
+Canvas.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Canvas.php
+END
+Color.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Color.php
+END
+Graph.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Image/Graph.php
+END

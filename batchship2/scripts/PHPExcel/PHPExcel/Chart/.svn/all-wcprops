@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Chart
+END
+Layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Chart/Layout.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Chart/Exception.php
+END
+Legend.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Chart/Legend.php
+END
+Title.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Chart/Title.php
+END
+DataSeries.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Chart/DataSeries.php
+END
+DataSeriesValues.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Chart/DataSeriesValues.php
+END
+PlotArea.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Chart/PlotArea.php
+END

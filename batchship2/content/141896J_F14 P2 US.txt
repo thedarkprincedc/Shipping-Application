@@ -1,0 +1,1729 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>141896J_F14 P2 US.txt - Batch Ship Request System - FCP Support Portal</title>
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="EmYKb7L2QVHPUAxlQGZwzICB1RvomhwPCTZcUVvOOfw="/>
+<link rel='shortcut icon' href='/favicon.ico?1279827036' />
+<link href="/themes/super_default/stylesheets/application.css?1313073785" media="all" rel="stylesheet" type="text/css" />
+
+<script src="/javascripts/prototype.js?1312473758" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1270087808" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1270087808" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1270087808" type="text/javascript"></script>
+<script src="/javascripts/application.js?1353000849" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Event.observe(window, 'load', function(){ new WarnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<!--[if IE 6]>
+    <style type="text/css">
+      * html body{ width: expression( document.documentElement.clientWidth < 900 ? '900px' : '100%' ); }
+      body {behavior: url(/stylesheets/csshover.htc?1270087809);}
+    </style>
+<![endif]-->
+
+<!-- page specific tags -->
+    <link href="/stylesheets/scm.css?1353000849" media="screen" rel="stylesheet" type="text/css" /></head>
+<body class="theme-Super default controller-attachments action-show">
+<div id="wrapper">
+<div id="wrapper2">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="stealth" href="#" id="stealth_toggle" onclick="new Ajax.Request('/stealth/toggle', {asynchronous:true, evalScripts:true, onFailure:function(request){alert('Failed to toggle stealth mode.')}, parameters:'authenticity_token=' + encodeURIComponent('EmYKb7L2QVHPUAxlQGZwzICB1RvomhwPCTZcUVvOOfw=')}); return false;">Enable stealth mode</a></li>
+<li><a href="/my/account" class="my-account">My account</a></li>
+<li><a href="/logout" class="logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a href="/users/269">bmosley</a></div>
+    <ul><li><a href="/" class="home">Home</a></li>
+<li><a href="/my/page" class="my-page">My page</a></li>
+<li><a href="/projects" class="projects">Projects</a></li>
+<li><a href="http://www.redmine.org/guide" class="help">Help</a></li></ul></div>
+
+<div id="header">
+    
+    <div id="quick-search">
+        <form action="/search/index/batchship" method="get">
+        
+        <label for='q'>
+          <a href="/search/index/batchship" accesskey="4">Search</a>:
+        </label>
+        <input accesskey="f" class="small" id="q" name="q" size="20" type="text" />
+        </form>
+        <select onchange="if (this.value != '') { window.location = this.value; }"><option value=''>Jump to a project...</option><option value="" disabled="disabled">---</option><option value="/projects/developers?jump=attachments">Developers</option><option value="/projects/4d?jump=attachments">&nbsp;&nbsp;&#187; 4D</option><option value="/projects/carta?jump=attachments">&nbsp;&nbsp;&#187; Carta</option><option value="/projects/cartawebsite?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Carta USA Website</option><option value="/projects/customer-systems?jump=attachments">&nbsp;&nbsp;&#187; Customer Systems</option><option value="/projects/dgcallout?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Dollar General Callout</option><option value="/projects/online-estimators?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Online Estimators</option><option value="/projects/item-repack?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Repack</option><option value="/projects/tjxfedex?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; TJX FedEx</option><option value="/projects/efi-radius?jump=attachments">&nbsp;&nbsp;&#187; EFI Radius</option><option value="/projects/epicor?jump=attachments">&nbsp;&nbsp;&#187; Epicor</option><option value="/projects/hagen?jump=attachments">&nbsp;&nbsp;&#187; Hagen</option><option value="/projects/labels?jump=attachments">&nbsp;&nbsp;&#187; Labels</option><option value="/projects/lazer?jump=attachments">&nbsp;&nbsp;&#187; Lazer DataManager</option><option value="/projects/schedule-system?jump=attachments">&nbsp;&nbsp;&#187; JobMinder</option><option value="/projects/webtier?jump=attachments">&nbsp;&nbsp;&#187; Web Tier</option><option selected="selected" value="/projects/batchship?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Batch Ship Request System</option><option value="/projects/flash-schedules?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Flash Views</option><option value="/projects/internal-systems?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Internal Systems</option><option value="/projects/ncr-reports?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; NCRs</option><option value="/projects/listviews?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Schedule List Views</option><option value="/projects/timesheet?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Timesheet</option><option value="/projects/company-project?jump=attachments">FCP Hosted Company Projects</option><option value="/projects/bblgroup?jump=attachments">&nbsp;&nbsp;&#187; BBL Group</option><option value="/projects/gemini-mailing?jump=attachments">&nbsp;&nbsp;&#187; Gemini Mailing List Project</option><option value="/projects/panthergraphics?jump=attachments">&nbsp;&nbsp;&#187; Panther Graphics</option><option value="/projects/kb?jump=attachments">FCP Support Portal</option><option value="/projects/incoming?jump=attachments">Incoming</option><option value="/projects/rt-archive?jump=attachments">&nbsp;&nbsp;&#187; RT Archive</option><option value="/projects/it?jump=attachments">IT</option><option value="/projects/esko-artwork?jump=attachments">&nbsp;&nbsp;&#187; Esko</option><option value="/projects/inkxml-parser?jump=attachments">&nbsp;&nbsp;&#187; InkXML Parser</option><option value="/projects/redmine-issues?jump=attachments">&nbsp;&nbsp;&#187; Redmine</option><option value="/projects/web-native-elegant?jump=attachments">&nbsp;&nbsp;&#187; Xinet Web Native NAPC Elegant Portal</option></select>
+    </div>
+    
+
+    <h1><a href="/projects/developers?jump=attachments" class="root">Developers</a> » <a href="/projects/webtier?jump=attachments" class="ancestor">Web Tier</a> » Batch Ship Request System</h1>
+
+    
+    <div id="main-menu">
+        <ul><li><a href="/projects/batchship" class="overview">Overview</a></li>
+<li><a href="/projects/batchship/activity" class="activity">Activity</a></li>
+<li><a href="/projects/batchship/roadmap" class="roadmap">Roadmap</a></li>
+<li><a href="/projects/batchship/issues" class="issues">Issues</a></li>
+<li><a href="/projects/batchship/issues/new" accesskey="7" class="new-issue">New issue</a></li>
+<li><a href="/projects/batchship/wiki" class="wiki">Wiki</a></li>
+<li><a href="/projects/batchship/repository" class="repository">Repository</a></li>
+<li><a href="/projects/batchship/settings" class="settings">Settings</a></li></ul>
+    </div>
+    
+</div>
+
+<div class="nosidebar" id="main">
+    <div id="sidebar">
+        
+        
+    </div>
+
+    <div id="content">
+        
+        <h2>141896J_F14 P2 US.txt</h2>
+
+<div class="attachments">
+<p>
+   <span class="author"><a href="/users/30">Tom Baker</a>, 07/31/2014 01:00 pm</span></p>
+<p><a href="/attachments/download/14352/141896J_F14%20P2%20US.txt">Download</a>   <span class="size">(52.7 kB)</span></p>
+
+</div>
+&nbsp;
+<div class="autoscroll">
+<table class="filecontent syntaxhl">
+<tbody>
+
+
+  <tr>
+    <th class="line-num" id="L1">
+      <a href="#L1">1</a>
+    </th>
+    <td class="line-code">
+      <pre>SeqNumber|JobNumber|Kit|PONumber|CompanyName|AttentionTo|Add1|Add2|Add3|City|StateProv|Country|Zip|PhoneNum|Service|BillTo|Package|Weight|SatDelivery|ResDelivery|GeneralDescription|InvReasonForExport|ImporterSameAsShipTo|GoodsDescriptionOfGoods|GoodsInvNAFTACOCountryOfOrigin|GoodsInvoiceUnits|GoodsInvoiceUnitsOfMeasure|GoodsInvoiceSEDUnitPrice|GoodsSEDCOGrossWeight|ThirdPartyCompanyName|ThirdPartyStreet|ThirdPartyCountry|ThirdPartyZip|ThirdPartyCity|ThirdPartyState|ThirdPartyAccount|ShipDate|DeliverBy|Blind Company|Dimension|PackID|Misc Reference 1|Misc Reference 2|Misc Reference 3|Misc Reference 4|Misc Reference 5|Insurance|Shipment_Type|Shipment_Type_Value
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L2">
+      <a href="#L2">2</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225245b|141896J| Store 4796||Payless ShoeSource #4796|Store Manager|MCLENDON TOWNE CROSSING|215 WEST ROAD||HOUSTON|TX|US|77038-2601|2814456286|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J|| Store 4796|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L3">
+      <a href="#L3">3</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622528dc|141896J| Store 4777||Payless ShoeSource #4777|Store Manager|6229 BELLAIRE BLVD|||HOUSTON|TX|US|77081-4901|7132727357|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J|| Store 4777|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L4">
+      <a href="#L4">4</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762252cae|141896J| Store 1494||Payless ShoeSource #1494|Store Manager|JORDAN LANDING|7104 SOUTH PLAZA CENTER DR||WEST JORDAN|UT|US|84084-1761|8012822991|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J|| Store 1494|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L5">
+      <a href="#L5">5</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225308d|141896J| Store 1245||Payless ShoeSource #1245|Store Manager|CORAL RIDGE MALL|3200 N FEDERAL HWY|SPACE 152|FORT LAUDERDALE|FL|US|33306-1062|9545663081|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J|| Store 1245|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L6">
+      <a href="#L6">6</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225345f|141896J|Store 2309||Payless ShoeSource #2309|Store Manager|NORTH RIVERSIDE SHOPPING CENTER|2210 HARLEM AVE||NORTH RIVERSIDE|IL|US|60546-1413|7084423950|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||Store 2309|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L7">
+      <a href="#L7">7</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225383e|141896J|Store 4396||Payless ShoeSource #4396|Store Manager|THE GATEWAY AT DETROIT|1371 WEST 8 MILE RD||HIGHLAND PARK|MI|US|48203-0000|3133662446|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||Store 4396|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L8">
+      <a href="#L8">8</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762253c11|141896J|Store 2120||Payless ShoeSource #2120|Store Manager|ROLLING OAKS COMMONS|3211 ROLLING OAKS BOULEVARD||KISSIMMEE|FL|US|34747-3053|4074650610|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||Store 2120|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L9">
+      <a href="#L9">9</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762253fe3|141896J|SPK-HZ2||Payless ShoeSource #6743|Store Manager|301 BAY PARK SQ|||GREEN BAY|WI|US|54304-5104|9204919677|UPS2DP|Third Party|Package|8|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|8|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||31x13x10||141896J||SPK-HZ2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L10">
+      <a href="#L10">10</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622543ae|141896J|SPK-HZ2||Payless ShoeSource #6893|Store Manager|2320 LINEVILLE RD|||GREEN BAY|WI|US|54313-8836|9206621098|UPS2DP|Third Party|Package|8|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|8|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||31x13x10||141896J||SPK-HZ2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L11">
+      <a href="#L11">11</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762254772|141896J|SPK-HZ2||Payless ShoeSource #6894|Store Manager|5630 ST CROIX TRAIL|||NORTH BRANCH|MN|US|55056-0000|6512370279|UPS2DP|Third Party|Package|8|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|8|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||31x13x10||141896J||SPK-HZ2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L12">
+      <a href="#L12">12</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762254b3e|141896J|SPK-HZ2||Payless ShoeSource #6896|Store Manager|3271 MARKET PLACE DRIVE|||COUNCIL BLUFFS|IA|US|51501-0000|7123668069|UPS2DP|Third Party|Package|8|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|8|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||31x13x10||141896J||SPK-HZ2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L13">
+      <a href="#L13">13</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762254f15|141896J|SPK-HZ2||Payless ShoeSource #6895|Store Manager|N66W25201 SILVER SPRING DRIVE|||SUSSEX|WI|US|53089-0000|2628201835|UPS2DP|Third Party|Package|8|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|8|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||31x13x10||141896J||SPK-HZ2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L14">
+      <a href="#L14">14</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622552dc|141896J|SPK-HT||Payless ShoeSource #6729|Store Manager|SHOPKO HOMETOWN|56835 N STATION DR||CALUMET|MI|US|49913-0000|9063374651|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L15">
+      <a href="#L15">15</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622556a8|141896J|SPK-HT||Payless ShoeSource #6735|Store Manager|SHOPKO HOMETOWN|650 US 41 WEST||ISHPEMING|MI|US|49849-3411|9064851038|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L16">
+      <a href="#L16">16</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762255a74|141896J|SPK-HT||Payless ShoeSource #6738|Store Manager|SHOPKO HOMETOWN|340 SOUTH HIGHWAY 65||MORA|MN|US|55051-1619|3206791637|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L17">
+      <a href="#L17">17</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762255e3f|141896J|SPK-HT||Payless ShoeSource #6782|Store Manager|SHOPKO HOMETOWN|705 NORTHLAND DRIVE||PRINCETON|MN|US|55371-2168|7633890146|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L18">
+      <a href="#L18">18</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225620c|141896J|SPK-HT||Payless ShoeSource #6810|Store Manager|SHOPKO HOMETOWN|1120 STATE HIGHWAY 67||KIEL|WI|US|53042-0000|9208943582|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L19">
+      <a href="#L19">19</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622565d5|141896J|SPK-HT||Payless ShoeSource #6859|Store Manager|SHOPKO HOMETOWN|1014 W RYAN ST||BRILLION|WI|US|54110-1079|9207562973|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L20">
+      <a href="#L20">20</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622569a0|141896J|SPK-HT||Payless ShoeSource #6875|Store Manager|SHOPKO HOMETOWN|1010 S MAINLINE||SEYMOUR|WI|US|54165-0000|9208339261|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L21">
+      <a href="#L21">21</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762256d62|141896J|SPK-HT||Payless ShoeSource #6876|Store Manager|SHOPKO HOMETOWN|525 E HIGHWAY 20||VALENTINE|NE|US|69201-0000|4023762166|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L22">
+      <a href="#L22">22</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225712a|141896J|SPK-HT||Payless ShoeSource #6878|Store Manager|SHOPKO HOMETOWN|2050 HORICON ST||MAYVILLE|WI|US|53050-0000|9203870257|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L23">
+      <a href="#L23">23</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622574f2|141896J|SPK-HT||Payless ShoeSource #6897|Store Manager|SHOPKO HOMETOWN|126 CHARLES STREET||OCONTO|WI|US|54153-0000|9208342100|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L24">
+      <a href="#L24">24</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622578b7|141896J|SPK-HT||Payless ShoeSource #6898|Store Manager|SHOPKO HOMETOWN|802 N MAIN||KEWAUNEE|WI|US|54216-0000|9203880286|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L25">
+      <a href="#L25">25</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762257c76|141896J|SPK-HT||Payless ShoeSource #6899|Store Manager|SHOPKO HOMETOWN|1011 E SPRUCE ST||ABBOTSFORD|WI|US|54405-9647|7152238151|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L26">
+      <a href="#L26">26</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762258042|141896J|SPK-HT||Payless ShoeSource #7501|Store Manager|SHOPKO HOMETOWN|2001 E 9TH ST||TRENTON|MO|US|64683-2599|6603397321|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L27">
+      <a href="#L27">27</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762258402|141896J|SPK-HT||Payless ShoeSource #7502|Store Manager|SHOPKO HOMETOWN|100 CROSS COUNTY PLAZA||BATESVILLE|IN|US|47006-8833|8129330811|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L28">
+      <a href="#L28">28</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622587cc|141896J|SPK-HT||Payless ShoeSource #7503|Store Manager|SHOPKO HOMETOWN|1515 E MAIN ST||REEDSBURG|WI|US|53959-1406|6084156062|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L29">
+      <a href="#L29">29</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762258bad|141896J|SPK-HT||Payless ShoeSource #7504|Store Manager|SHOPKO HOMETOWN|220 LINCOLN ST||ADAMS|WI|US|53910-9459|6083390302|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L30">
+      <a href="#L30">30</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762258f6c|141896J|SPK-HT||Payless ShoeSource #7505|Store Manager|SHOPKO HOMETOWN|810 N RAILROAD ST||EAGLE RIVER|WI|US|54521-8834|7153370165|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L31">
+      <a href="#L31">31</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225933a|141896J|SPK-HT||Payless ShoeSource #7506|Store Manager|SHOPKO HOMETOWN|717 E LAKESHORE DR||MANISTIQUE|MI|US|49854-1682|9063410481|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L32">
+      <a href="#L32">32</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622596fe|141896J|SPK-HT||Payless ShoeSource #7507|Store Manager|SHOPKO HOMETOWN|1008 E DIVISION||NEILLSVILLE|WI|US|54456-0000|7157433721|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L33">
+      <a href="#L33">33</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762259ac8|141896J|SPK-HT||Payless ShoeSource #7508|Store Manager|SHOPKO HOMETOWN|1009 7TH AVE||TWO HARBORS|MN|US|55616-6000|2188344478|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L34">
+      <a href="#L34">34</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762259e88|141896J|SPK-HT||Payless ShoeSource #7510|Store Manager|SHOPKO HOMETOWN|1625 E BLASCHKO AVE||ARCADIA|WI|US|54612-1835|6083233143|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L35">
+      <a href="#L35">35</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225a24f|141896J|SPK-HT||Payless ShoeSource #7511|Store Manager|SHOPKO HOMETOWN|650 W BEAVERBROOK AVE||SPOONER|WI|US|54801-7674|7156354548|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L36">
+      <a href="#L36">36</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225a618|141896J|SPK-HT||Payless ShoeSource #7512|Store Manager|SHOPKO HOMETOWN|1333 4TH AVE SOUTH||PARK FALLS|WI|US|54552-1926|7157621176|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L37">
+      <a href="#L37">37</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225a9e4|141896J|SPK-HT||Payless ShoeSource #7513|Store Manager|SHOPKO HOMETOWN|251 S 4TH ST||SAVANNA|IL|US|61074-2123|8152730113|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L38">
+      <a href="#L38">38</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225ada1|141896J|SPK-HT||Payless ShoeSource #7515|Store Manager|SHOPKO HOMETOWN|1215 E MAIN ST||ATTICA|IN|US|47918-8053|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L39">
+      <a href="#L39">39</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225b163|141896J|SPK-HT||Payless ShoeSource #7516|Store Manager|SHOPKO HOMETOWN|200 W BURNSIDE RD||MONTICELLO|IL|US|61856-9577|2177622295|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L40">
+      <a href="#L40">40</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225b523|141896J|SPK-HT||Payless ShoeSource #7518|Store Manager|SHOPKO HOMETOWN|211 S 23RD ST||PLATTSMOUTH|NE|US|68048-2903|4022960565|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L41">
+      <a href="#L41">41</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225b8eb|141896J|SPK-HT||Payless ShoeSource #7519|Store Manager|SHOPKO HOMETOWN|3225 10TH ST EAST||GLENCOE|MN|US|55336-3369|3208642769|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L42">
+      <a href="#L42">42</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225bcae|141896J|SPK-HT||Payless ShoeSource #7520|Store Manager|SHOPKO HOMETOWN|291 S MAIN STREET||CLINTONVILLE|WI|US|54929-1604|7158236066|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L43">
+      <a href="#L43">43</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225c06f|141896J|SPK-HT||Payless ShoeSource #7521|Store Manager|SHOPKO HOMETOWN|2541 SOUTH BAYSHORE DR|BLDG E|SISTER BAY|WI|US|54234-9158|9208541862|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L44">
+      <a href="#L44">44</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225c430|141896J|SPK-HT||Payless ShoeSource #7522|Store Manager|SHOPKO HOMETOWN|1201 12TH AVE SE||DYERSVILLE|IA|US|52040-2415|5638757347|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L45">
+      <a href="#L45">45</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225c809|141896J|SPK-HT||Payless ShoeSource #7523|Store Manager|SHOPKO HOMETOWN|1625 HWY 61||LANCASTER|WI|US|53813-9448|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L46">
+      <a href="#L46">46</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225cbc4|141896J|SPK-HT||Payless ShoeSource #7524|Store Manager|SHOPKO HOMETOWN|11250 N MISSION RD||CLARE|MI|US|48617-9301|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L47">
+      <a href="#L47">47</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225cf84|141896J|SPK-HT||Payless ShoeSource #7525|Store Manager|SHOPKO HOMETOWN|3165 COLBY RD BOX 429||WHITEHALL|MI|US|49461-9637|2318931550|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L48">
+      <a href="#L48">48</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225d342|141896J|SPK-HT||Payless ShoeSource #7526|Store Manager|SHOPKO HOMETOWN|3825 S HURON RD||STANDISH|MI|US|48658-9474|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L49">
+      <a href="#L49">49</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225d701|141896J|SPK-HT||Payless ShoeSource #7527|Store Manager|SHOPKO HOMETOWN|2656 E. MONROE RD||TECUMSEH|MI|US|49286-9727|5174230909|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L50">
+      <a href="#L50">50</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225dac2|141896J|SPK-HT||Payless ShoeSource #7528|Store Manager|SHOPKO HOMETOWN|1995 S CEDAR ST||IMLAY CITY|MI|US|48444-9605|8107210600|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L51">
+      <a href="#L51">51</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225de82|141896J|SPK-HT||Payless ShoeSource #7529|Store Manager|SHOPKO HOMETOWN|2278 N COMFORT DR||HART|MI|US|49420-8155|2318730772|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L52">
+      <a href="#L52">52</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225e235|141896J|SPK-HT||Payless ShoeSource #7530|Store Manager|SHOPKO HOMETOWN|400 S MAIN ST||BROOKLYN|MI|US|49230-9368|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L53">
+      <a href="#L53">53</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225e5fc|141896J|SPK-HT||Payless ShoeSource #7531|Store Manager|SHOPKO HOMETOWN|174 JAMES ROBERTSON DR||GLADWIN|MI|US|48624-0000|9892460919|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L54">
+      <a href="#L54">54</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225e9c0|141896J|SPK-HT||Payless ShoeSource #7532|Store Manager|SHOPKO HOMETOWN|190 SOUTHGATE DR||AITKIN|MN|US|56431-7407|2189271479|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L55">
+      <a href="#L55">55</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225ed81|141896J|SPK-HT||Payless ShoeSource #7533|Store Manager|SHOPKO HOMETOWN|300 JAKE ST||PERHAM|MN|US|56573-0000|2183466339|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L56">
+      <a href="#L56">56</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225f144|141896J|SPK-HT||Payless ShoeSource #7534|Store Manager|SHOPKO HOMETOWN|710 COUNTY RD 21 S||GLENWOOD|MN|US|56334-9145|3206349937|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L57">
+      <a href="#L57">57</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225f50d|141896J|SPK-HT||Payless ShoeSource #7535|Store Manager|SHOPKO HOMETOWN|106 EAST HWY 28||MORRIS|MN|US|56267-0000|3205898827|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L58">
+      <a href="#L58">58</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225f8d3|141896J|SPK-HT||Payless ShoeSource #7536|Store Manager|SHOPKO HOMETOWN|421 GATEWAY DRIVE NE||EAST GRAND FORKS|MN|US|56721-1619|2187734274|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L59">
+      <a href="#L59">59</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76225fc9d|141896J|SPK-HT||Payless ShoeSource #7537|Store Manager|SHOPKO HOMETOWN|1087 3RD STREET NW||ROSEAU|MN|US|56751-0000|2184639429|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L60">
+      <a href="#L60">60</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762260067|141896J|SPK-HT||Payless ShoeSource #7538|Store Manager|SHOPKO HOMETOWN|1140 E 5TH ST||WINNER|SD|US|57580-2149|6058421350|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L61">
+      <a href="#L61">61</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762260441|141896J|SPK-HT||Payless ShoeSource #7539|Store Manager|SHOPKO HOMETOWN|800 S WASHINGTON AVE||MADISON|SD|US|57042-0000|6052563349|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L62">
+      <a href="#L62">62</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622607fb|141896J|SPK-HT||Payless ShoeSource #7540|Store Manager|SHOPKO HOMETOWN|405 W INTERSTATE DR||LUVERNE|MN|US|56156-2266|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L63">
+      <a href="#L63">63</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762260bbe|141896J|SPK-HT||Payless ShoeSource #7541|Store Manager|SHOPKO HOMETOWN|1002 7TH ST SE||PIPESTONE|MN|US|56164-2076|5078257981|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L64">
+      <a href="#L64">64</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762260f86|141896J|SPK-HT||Payless ShoeSource #7542|Store Manager|SHOPKO HOMETOWN|2155 1ST AVE N||WINDOM|MN|US|56101-1286|5078316109|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L65">
+      <a href="#L65">65</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226133f|141896J|SPK-HT||Payless ShoeSource #7543|Store Manager|SHOPKO HOMETOWN|1712 SD HWY 10||SISSETON|SD|US|57262-2523|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L66">
+      <a href="#L66">66</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622616fa|141896J|SPK-HT||Payless ShoeSource #7544|Store Manager|SHOPKO HOMETOWN|1950 W ROOSEVELT HWY||SHELBY|MT|US|59474-1549|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L67">
+      <a href="#L67">67</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762261ac1|141896J|SPK-HT||Payless ShoeSource #7545|Store Manager|SHOPKO HOMETOWN|804 US HWY 2 WEST||GLASGOW|MT|US|59230-1600|4062289739|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L68">
+      <a href="#L68">68</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762261e84|141896J|SPK-HT||Payless ShoeSource #7546|Store Manager|SHOPKO HOMETOWN|31071 US HWY 2||LIBBY|MT|US|59923-3134|4062932155|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L69">
+      <a href="#L69">69</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762262236|141896J|SPK-HT||Payless ShoeSource #7547|Store Manager|SHOPKO HOMETOWN|825 W FULTON ST||WAUPACA|WI|US|54981-1471|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L70">
+      <a href="#L70">70</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622625fb|141896J|SPK-HT||Payless ShoeSource #7548|Store Manager|SHOPKO HOMETOWN|409 JUNCTION AVE||STANLEY|WI|US|54768-8011|7156442297|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L71">
+      <a href="#L71">71</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622629b2|141896J|SPK-HT||Payless ShoeSource #7549|Store Manager|SHOPKO HOMETOWN|200 COMMERCE DRIVE||COLUMBUS|WI|US|53925-9567|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L72">
+      <a href="#L72">72</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762262d76|141896J|SPK-HT||Payless ShoeSource #7550|Store Manager|SHOPKO HOMETOWN|540 JENNER DR||ALLEGAN|MI|US|49010-1517|2696731711|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L73">
+      <a href="#L73">73</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226312a|141896J|SPK-HT||Payless ShoeSource #7551|Store Manager|SHOPKO HOMETOWN|91 W PINE LAKE DR||NEWAYGO|MI|US|49337-9331|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L74">
+      <a href="#L74">74</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622634f3|141896J|SPK-HT||Payless ShoeSource #7552|Store Manager|SHOPKO HOMETOWN|1101 N INDIANA AVE||SYRACUSE|IN|US|46567-1019|5744577126|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L75">
+      <a href="#L75">75</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622638bb|141896J|SPK-HT||Payless ShoeSource #7553|Store Manager|SHOPKO HOMETOWN|56419 POKAGON ST||DOWAGIAC|MI|US|49047-7721|2697820826|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L76">
+      <a href="#L76">76</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762263c7f|141896J|SPK-HT||Payless ShoeSource #7554|Store Manager|SHOPKO HOMETOWN|660 W MILWAUKEE ST||NEW HAMPTON|IA|US|50659-1013|6413942915|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L77">
+      <a href="#L77">77</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762264046|141896J|SPK-HT||Payless ShoeSource #7555|Store Manager|SHOPKO HOMETOWN|1341 S FREDERICK AVE||OELWEIN|IA|US|50662-3060|3192833273|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L78">
+      <a href="#L78">78</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226440d|141896J|SPK-HT||Payless ShoeSource #7556|Store Manager|SHOPKO HOMETOWN|819 11TH AVE SW||WAUKON|IA|US|52172-7593|5635682896|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L79">
+      <a href="#L79">79</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622647d4|141896J|SPK-HT||Payless ShoeSource #7557|Store Manager|SHOPKO HOMETOWN|402 E HIGHWAY 92||WINTERSET|IA|US|50273-2416|5154621092|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L80">
+      <a href="#L80">80</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762264b96|141896J|SPK-HT||Payless ShoeSource #7558|Store Manager|SHOPKO HOMETOWN|2220 HWY 175 W||ONAWA|IA|US|51040-0000|7124231024|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L81">
+      <a href="#L81">81</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762264f5a|141896J|SPK-HT||Payless ShoeSource #7559|Store Manager|SHOPKO HOMETOWN|1305 141ST ST||PERRY|IA|US|50220-8128|5154652448|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L82">
+      <a href="#L82">82</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226531a|141896J|SPK-HT||Payless ShoeSource #7560|Store Manager|SHOPKO HOMETOWN|2099 CHATBURN AVE||HARLAN|IA|US|51537-1845|7127552176|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L83">
+      <a href="#L83">83</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622656dd|141896J|SPK-HT||Payless ShoeSource #7561|Store Manager|SHOPKO HOMETOWN|100 TEXAS TRAIL DR||OGALLALA|NE|US|69153-3035|3082844427|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L84">
+      <a href="#L84">84</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762265a9b|141896J|SPK-HT||Payless ShoeSource #7562|Store Manager|SHOPKO HOMETOWN|1150 E 3RD ST||SUPERIOR|NE|US|68978-2026|4028793462|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L85">
+      <a href="#L85">85</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762265e50|141896J|SPK-HT||Payless ShoeSource #7563|Store Manager|SHOPKO HOMETOWN|821 W CRAWFORD ST||CLAY CENTER|KS|US|67432-2343|5856639000|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L86">
+      <a href="#L86">86</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762266218|141896J|SPK-HT||Payless ShoeSource #7564|Store Manager|SHOPKO HOMETOWN|2353 SOUTH E|PO BOX 383|BROKEN BOW|NE|US|68822-0000|3088722647|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L87">
+      <a href="#L87">87</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622665e1|141896J|SPK-HT||Payless ShoeSource #7565|Store Manager|SHOPKO HOMETOWN|1702 MAIN ST||SCOTT CITY|KS|US|67871-1951|6208725047|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L88">
+      <a href="#L88">88</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226699e|141896J|SPK-HT||Payless ShoeSource #7566|Store Manager|SHOPKO HOMETOWN|1212 W MAIN ST||LYONS|KS|US|67554-2428|6202575285|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L89">
+      <a href="#L89">89</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762266d5a|141896J|SPK-HT||Payless ShoeSource #7567|Store Manager|SHOPKO HOMETOWN|1520 W 9TH ST||MOUNT CARMEL|IL|US|62863-2909|6182622293|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L90">
+      <a href="#L90">90</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762267122|141896J|SPK-HT||Payless ShoeSource #7568|Store Manager|SHOPKO HOMETOWN|825 VALLEY ST ROUTE 183||MINERVA|OH|US|44657-1578|3308680394|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L91">
+      <a href="#L91">91</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622674e8|141896J|SPK-HT||Payless ShoeSource #7569|Store Manager|SHOPKO HOMETOWN|671 WOLFORD AVE||LIBERTY|KY|US|42539-3452|6067874337|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L92">
+      <a href="#L92">92</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622678a9|141896J|SPK-HT||Payless ShoeSource #7570|Store Manager|SHOPKO HOMETOWN|378 LEWISVILLE RD||WOODSFIELD|OH|US|43793-0000|585832331456|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L93">
+      <a href="#L93">93</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762267c69|141896J|SPK-HT||Payless ShoeSource #7572|Store Manager|SHOPKO HOMETOWN|2300 ST RT 534 SW||NEWTON FALLS|OH|US|44444-8747|3308729926|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L94">
+      <a href="#L94">94</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762268039|141896J|SPK-HT||Payless ShoeSource #7573|Store Manager|SHOPKO HOMETOWN|777 BYPASS RD||BRANDENBURG|KY|US|40108-1603|2704222332|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L95">
+      <a href="#L95">95</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622683fb|141896J|SPK-HT||Payless ShoeSource #7575|Store Manager|SHOPKO HOMETOWN|727 15TH AVE SW||VALLEY CITY|ND|US|58072-3630|7018459378|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L96">
+      <a href="#L96">96</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622687c4|141896J|SPK-HT||Payless ShoeSource #7576|Store Manager|SHOPKO HOMETOWN|932 W 12TH ST||GRAFTON|ND|US|58237-2122|7013520189|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L97">
+      <a href="#L97">97</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762268b8a|141896J|SPK-HT||Payless ShoeSource #7577|Store Manager|SHOPKO HOMETOWN|1900 HWY 49||BEULAH|ND|US|58523-9157|7018732643|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L98">
+      <a href="#L98">98</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762268f52|141896J|SPK-HT||Payless ShoeSource #7578|Store Manager|SHOPKO HOMETOWN|2701 HWY 18 W||HOT SPRINGS|SD|US|57747-6604|6057453104|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L99">
+      <a href="#L99">99</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762269318|141896J|SPK-HT||Payless ShoeSource #7579|Store Manager|SHOPKO HOMETOWN|2100 E CEDAR ST||RAWLINS|WY|US|82301-6029|3073240031|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L100">
+      <a href="#L100">100</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622696dc|141896J|SPK-HT||Payless ShoeSource #7580|Store Manager|SHOPKO HOMETOWN|1701 16TH ST|SUITE 101|WHEATLAND|WY|US|82201-2243|3073223805|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L101">
+      <a href="#L101">101</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762269a9d|141896J|SPK-HT||Payless ShoeSource #7581|Store Manager|SHOPKO HOMETOWN|1 NORTH 5TH AVE|SUITE 6|BELLE FOURCHE|SD|US|57717-1172|6058920065|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L102">
+      <a href="#L102">102</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762269e59|141896J|SPK-HT||Payless ShoeSource #7582|Store Manager|SHOPKO HOMETOWN|1950 E RICHARDS ST||DOUGLAS|WY|US|82633-3049|3073580762|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L103">
+      <a href="#L103">103</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226a220|141896J|SPK-HT||Payless ShoeSource #7583|Store Manager|SHOPKO HOMETOWN|1105 BRIDGER DR||GREEN RIVER|WY|US|82935-5895|3078758381|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L104">
+      <a href="#L104">104</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226a5e6|141896J|SPK-HT||Payless ShoeSource #7584|Store Manager|SHOPKO HOMETOWN|205 BOYD AVE||NEWCASTLE|WY|US|82701-2965|3077460760|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L105">
+      <a href="#L105">105</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226a9a3|141896J|SPK-HT||Payless ShoeSource #7585|Store Manager|SHOPKO HOMETOWN|100 W WASHINGTON ST||LIVINGSTON|MT|US|59047-4200|4062222324|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L106">
+      <a href="#L106">106</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226ad62|141896J|SPK-HT||Payless ShoeSource #7586|Store Manager|SHOPKO HOMETOWN|1103 11TH ST E||BOTTINEAU|ND|US|58318-1800|7019990276|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L107">
+      <a href="#L107">107</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226b129|141896J|SPK-HT||Payless ShoeSource #7587|Store Manager|SHOPKO HOMETOWN|801 N BROADWAY ST||RED OAK|IA|US|51566-1404|7126238947|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L108">
+      <a href="#L108">108</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226b4f0|141896J|SPK-HT||Payless ShoeSource #7588|Store Manager|SHOPKO HOMETOWN|598 LUCAS LANE|PO BOX 207|ELLSWORTH|WI|US|54011-0000|7152734278|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L109">
+      <a href="#L109">109</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226b8be|141896J|SPK-HT||Payless ShoeSource #7589|Store Manager|SHOPKO HOMETOWN|1002 OLD MINNESOTA AVE||SAINT PETER|MN|US|56082-0000|5079314410|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L110">
+      <a href="#L110">110</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226bcae|141896J|SPK-HT||Payless ShoeSource #7591|Store Manager|SHOPKO HOMETOWN|79 HOMETOWN DRIVE||TOMAHAWK|WI|US|54487-0000|7154535996|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L111">
+      <a href="#L111">111</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226c073|141896J|SPK-HT||Payless ShoeSource #7592|Store Manager|SHOPKO HOMETOWN|679 S WASHINGTON ST||AFTON|WY|US|83110-0000|3078859804|UPS2DP|Third Party|Package|3|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|3|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||6x6x32||141896J||SPK-HT|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L112">
+      <a href="#L112">112</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226c435|141896J|GHA-1||Payless ShoeSource #5463|Store Manager|1301 S SEWARD MERIDIAN HWY|UNIT A|SUITE C14|WASILLA|AK|US|99654-0000|9073572279|UPS2DP|Third Party|Package|10|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|10|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-1|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L113">
+      <a href="#L113">113</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226c800|141896J|GHA-2||Payless ShoeSource #4423|Store Manager|WINDWARD MALL|46-056 KAM HIGHWAY||KANEOHE|HI|US|96744-3755|8082364834|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L114">
+      <a href="#L114">114</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226cbc5|141896J|GHA-2||Payless ShoeSource #4424|Store Manager|WAIPAHU TOWN CENTER|94-050 FARRINGTON HWY||WAIPAHU|HI|US|96797-1841|8086780458|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L115">
+      <a href="#L115">115</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226cf89|141896J|GHA-2||Payless ShoeSource #4425|Store Manager|WAHIAWA TOWN CENTER|935 CALIFORNIA AVE||WAHIAWA|HI|US|96786-2165|8086223038|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L116">
+      <a href="#L116">116</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226d354|141896J|GHA-2||Payless ShoeSource #5044|Store Manager|ALA MOANA PLAZA|451 PIIKOI STREET||HONOLULU|HI|US|96814-4220|8085967793|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L117">
+      <a href="#L117">117</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226d71f|141896J|GHA-2||Payless ShoeSource #5061|Store Manager|KMART KUKUI CENTER|4303 NAWILIWILI RD|SUITE 107|LIHUE|HI|US|96766-9581|8082466860|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L118">
+      <a href="#L118">118</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226dae8|141896J|GHA-2||Payless ShoeSource #5279|Store Manager|WINDWARD CITY SC|45-480 KANEOHE BAY DRIVE B17||KANEOHE|HI|US|96744-2054|8082470423|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L119">
+      <a href="#L119">119</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226deb0|141896J|GHA-2||Payless ShoeSource #5461|Store Manager|SEARS MALL|600 E NORTHERN LIGHTS #157||ANCHORAGE|AK|US|99503-4134|9072727887|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L120">
+      <a href="#L120">120</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226e26c|141896J|GHA-2||Payless ShoeSource #5504|Store Manager|KONA COAST SHOPPING CENTER|74-5588 PALANI ROAD|SUITE G|KAILUA KONA|HI|US|96740-3120|8083340181|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L121">
+      <a href="#L121">121</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226e638|141896J|GHA-2||Payless ShoeSource #5534|Store Manager|BENTLEY MALL|32 COLLEGE ROAD|SUITE 2|FAIRBANKS|AK|US|99701-1701|9074588199|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L122">
+      <a href="#L122">122</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226ea00|141896J|GHA-2||Payless ShoeSource #5538|Store Manager|NORTHWAY MALL|3101 PENLAND PARKWAY|SPACE G10|ANCHORAGE|AK|US|99508-1955|9072762320|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L123">
+      <a href="#L123">123</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226edcf|141896J|GHA-2||Payless ShoeSource #5589|Store Manager|PENINSULA CENTER MALL|44332 STERLING HWY|STE 16|SOLDOTNA|AK|US|99669-8000|9072628400|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-2|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L124">
+      <a href="#L124">124</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226f196|141896J|GHA-3||Payless ShoeSource #5535|Store Manager|NUGGET MALL|8745 GLACIER HWY|SPACE 165|JUNEAU|AK|US|99801-8000|9077904415|UPS2DP|Third Party|Package|17|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|17|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||31x13x10||141896J||GHA-3|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L125">
+      <a href="#L125">125</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226f54d|141896J|GHA-4||Payless ShoeSource #5460|Store Manager|DIMOND CENTER|800 E DIMOND BLVD|SUITE 155|ANCHORAGE|AK|US|99515-2053|9073449192|UPS2DP|Third Party|Package|11|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|11|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||31x13x10||141896J||GHA-4|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L126">
+      <a href="#L126">126</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226f932|141896J|GHA-5||Payless ShoeSource #4426|Store Manager|PRINCE KUHIO PLAZA|111 E PUAINAKO ST|SPACE 765|HILO|HI|US|96720-5288|8089594901|UPS2DP|Third Party|Package|12|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|12|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-5|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L127">
+      <a href="#L127">127</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76226fcf1|141896J|GHA-5||Payless ShoeSource #4427|Store Manager|PEARL RIDGE UPTOWN|98-1005 MOANALUA RD|SUITE 141|AIEA|HI|US|96701-4708|8084845364|UPS2DP|Third Party|Package|12|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|12|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-5|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L128">
+      <a href="#L128">128</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622700ae|141896J|GHA-5||Payless ShoeSource #4575|Store Manager|KAMEHAMEHA S C|1620 N SCHOOL ST||HONOLULU|HI|US|96817-1844|8088477959|UPS2DP|Third Party|Package|12|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|12|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-5|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L129">
+      <a href="#L129">129</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762270474|141896J|GHA-5||Payless ShoeSource #4772|Store Manager|QUEEN KAAHUMANU CENTER|275 KAAHUMANU AVENUE|SUITE B1|KAHULUI|HI|US|96732-1630|8088776566|UPS2DP|Third Party|Package|12|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|12|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-5|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L130">
+      <a href="#L130">130</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762270841|141896J|GHA-5||Payless ShoeSource #4818|Store Manager|PEARL HIGHLANDS CENTER|1000 KAMEHAMEHA HWY|SUITE 206|PEARL CITY|HI|US|96782-2596|8084561213|UPS2DP|Third Party|Package|12|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|12|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-5|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L131">
+      <a href="#L131">131</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762270c12|141896J|GHA-5||Payless ShoeSource #5462|Store Manager|5TH AVENUE MALL|320 W 5TH AVENUE SUITE 200||ANCHORAGE|AK|US|99501-2349|9072774148|UPS2DP|Third Party|Package|12|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|12|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||41x13x10||141896J||GHA-5|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L132">
+      <a href="#L132">132</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762270fde|141896J|ST. LOUIS||Payless ShoeSource #641|Store Manager|603 S BISHOP AVE|SUITE A||ROLLA|MO|US|65401-4314|5733648912|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L133">
+      <a href="#L133">133</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76227139b|141896J|ST. LOUIS||Payless ShoeSource #643|Store Manager|1003 W GANNON DR|||FESTUS|MO|US|63028-2606|6369370870|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L134">
+      <a href="#L134">134</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762271758|141896J|ST. LOUIS||Payless ShoeSource #664|Store Manager|LITCHFIELD PLAZA|1403 W FERDON ST|SUITE 3|LITCHFIELD|IL|US|62056-4448|2173246414|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L135">
+      <a href="#L135">135</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762271b1a|141896J|ST. LOUIS||Payless ShoeSource #815|Store Manager|3640 GREEN MOUNT CROSSING DRIVE|SUITE 109||SHILOH|IL|US|62269-0000|6186326932|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L136">
+      <a href="#L136">136</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762271ee4|141896J|ST. LOUIS||Payless ShoeSource #835|Store Manager|907 N ILLINOIS RTE 3|||WATERLOO|IL|US|62298-1074|6189399700|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L137">
+      <a href="#L137">137</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622722a7|141896J|ST. LOUIS||Payless ShoeSource #902|Store Manager|NAMEOKI COMMONS SC|3499 NAMEOKI RD||GRANITE CITY|IL|US|62040-3719|6188767842|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L138">
+      <a href="#L138">138</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762272660|141896J|ST. LOUIS||Payless ShoeSource #990|Store Manager|FAIRVIEW PARK PLAZA|1009 W BROADWAY||CENTRALIA|IL|US|62801-5309|6185328160|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L139">
+      <a href="#L139">139</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762272a30|141896J|ST. LOUIS||Payless ShoeSource #1446|Store Manager|LINDELL MARKET PLACE|4159 LINDELL BLVD||SAINT LOUIS|MO|US|63108-2913|3146529046|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L140">
+      <a href="#L140">140</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762272df4|141896J|ST. LOUIS||Payless ShoeSource #2092|Store Manager|CROSSROADS MARKET PLACE|1957 WENTZVILLE PKWY|SUITE 102|WENTZVILLE|MO|US|63385-3424|6363274580|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L141">
+      <a href="#L141">141</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622731c2|141896J|ST. LOUIS||Payless ShoeSource #2153|Store Manager|KIRKWOOD COMMONS|1050 S KIRKWOOD RD||KIRKWOOD|MO|US|63122-7224|3149650301|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L142">
+      <a href="#L142">142</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762273596|141896J|ST. LOUIS||Payless ShoeSource #3855|Store Manager|94 CROSSING SC|6167 MID RIVERS MALL DR||SAINT PETERS|MO|US|63304-1105|6364472056|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L143">
+      <a href="#L143">143</a>
+    </th>
+    <td class="line-code">
+      <pre>53da76227395e|141896J|ST. LOUIS||Payless ShoeSource #4286|Store Manager|THE SHOPS AT LAURA HILL|2206 HIGHWAY K||O FALLON|MO|US|63366-7929|6362406340|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L144">
+      <a href="#L144">144</a>
+    </th>
+    <td class="line-code">
+      <pre>53da762273d27|141896J|ST. LOUIS||Payless ShoeSource #4445|Store Manager|3515 BAMBERGER|||SAINT LOUIS|MO|US|63116-4701|3147715648|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L145">
+      <a href="#L145">145</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622740e8|141896J|ST. LOUIS||Payless ShoeSource #4573|Store Manager|MAPLEWOOD COMMONS|2015 MAPLEWOOD COMMONS DR||MAPLEWOOD|MO|US|63143-1003|3146461067|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L146">
+      <a href="#L146">146</a>
+    </th>
+    <td class="line-code">
+      <pre>53da7622744b1|141896J|ST. LOUIS||Payless ShoeSource #5305|Store Manager|FENTON PLAZA|53 FENTON PLAZA||FENTON|MO|US|63026-4110|6363498008|UPS2DP|Third Party|Package|2|N|N|Not for resale|Sale|Y|Not for resale|US|1|EA|1|2|Payless Shoesource Marketing|3231 SE 6th St|US|66607|Topeka|KS|70E52V|08/04/2014|||24x30x1||141896J||ST. LOUIS|||0|Batch Ship|batch_53da7622521f9
+</pre>
+    </td>
+  </tr>
+  
+
+</tbody>
+</table>
+</div>
+
+
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="http://www.redmine.org/">Redmine</a> &copy; 2006-2012 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

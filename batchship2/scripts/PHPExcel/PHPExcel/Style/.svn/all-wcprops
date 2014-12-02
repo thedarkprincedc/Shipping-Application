@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style
+END
+Border.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style/Border.php
+END
+Alignment.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style/Alignment.php
+END
+Color.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style/Color.php
+END
+Borders.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style/Borders.php
+END
+NumberFormat.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style/NumberFormat.php
+END
+Supervisor.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style/Supervisor.php
+END
+Conditional.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style/Conditional.php
+END
+Fill.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style/Fill.php
+END
+Font.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style/Font.php
+END
+Protection.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Style/Protection.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/batchship/!svn/ver/127/branches/batchship-2.0/wsdl
+END
+AddressValidationService_v2.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/127/branches/batchship-2.0/wsdl/AddressValidationService_v2.wsdl
+END
+AddressValidationRequest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/batchship/!svn/ver/127/branches/batchship-2.0/wsdl/AddressValidationRequest.txt
+END
+AddressValidationReply.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/batchship/!svn/ver/127/branches/batchship-2.0/wsdl/AddressValidationReply.txt
+END

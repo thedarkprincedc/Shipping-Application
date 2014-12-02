@@ -1,0 +1,607 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>142923C.txt - Batch Ship Request System - FCP Support Portal</title>
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="U0b5Rf+QzP3KwmcTPC048xd7TR8a9DVlEqUH7L3DtLY="/>
+<link rel='shortcut icon' href='/favicon.ico?1279827036' />
+<link href="/themes/super_default/stylesheets/application.css?1313073785" media="all" rel="stylesheet" type="text/css" />
+
+<script src="/javascripts/prototype.js?1312473758" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1270087808" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1270087808" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1270087808" type="text/javascript"></script>
+<script src="/javascripts/application.js?1353000849" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Event.observe(window, 'load', function(){ new WarnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<!--[if IE 6]>
+    <style type="text/css">
+      * html body{ width: expression( document.documentElement.clientWidth < 900 ? '900px' : '100%' ); }
+      body {behavior: url(/stylesheets/csshover.htc?1270087809);}
+    </style>
+<![endif]-->
+
+<!-- page specific tags -->
+    <link href="/stylesheets/scm.css?1353000849" media="screen" rel="stylesheet" type="text/css" /></head>
+<body class="theme-Super default controller-attachments action-show">
+<div id="wrapper">
+<div id="wrapper2">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="stealth" href="#" id="stealth_toggle" onclick="new Ajax.Request('/stealth/toggle', {asynchronous:true, evalScripts:true, onFailure:function(request){alert('Failed to toggle stealth mode.')}, parameters:'authenticity_token=' + encodeURIComponent('U0b5Rf+QzP3KwmcTPC048xd7TR8a9DVlEqUH7L3DtLY=')}); return false;">Enable stealth mode</a></li>
+<li><a href="/my/account" class="my-account">My account</a></li>
+<li><a href="/logout" class="logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a href="/users/269">bmosley</a></div>
+    <ul><li><a href="/" class="home">Home</a></li>
+<li><a href="/my/page" class="my-page">My page</a></li>
+<li><a href="/projects" class="projects">Projects</a></li>
+<li><a href="http://www.redmine.org/guide" class="help">Help</a></li></ul></div>
+
+<div id="header">
+    
+    <div id="quick-search">
+        <form action="/search/index/batchship" method="get">
+        
+        <label for='q'>
+          <a href="/search/index/batchship" accesskey="4">Search</a>:
+        </label>
+        <input accesskey="f" class="small" id="q" name="q" size="20" type="text" />
+        </form>
+        <select onchange="if (this.value != '') { window.location = this.value; }"><option value=''>Jump to a project...</option><option value="" disabled="disabled">---</option><option value="/projects/developers?jump=attachments">Developers</option><option value="/projects/4d?jump=attachments">&nbsp;&nbsp;&#187; 4D</option><option value="/projects/carta?jump=attachments">&nbsp;&nbsp;&#187; Carta</option><option value="/projects/cartawebsite?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Carta USA Website</option><option value="/projects/customer-systems?jump=attachments">&nbsp;&nbsp;&#187; Customer Systems</option><option value="/projects/dgcallout?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Dollar General Callout</option><option value="/projects/online-estimators?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Online Estimators</option><option value="/projects/item-repack?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Repack</option><option value="/projects/tjxfedex?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; TJX FedEx</option><option value="/projects/efi-radius?jump=attachments">&nbsp;&nbsp;&#187; EFI Radius</option><option value="/projects/epicor?jump=attachments">&nbsp;&nbsp;&#187; Epicor</option><option value="/projects/hagen?jump=attachments">&nbsp;&nbsp;&#187; Hagen</option><option value="/projects/labels?jump=attachments">&nbsp;&nbsp;&#187; Labels</option><option value="/projects/lazer?jump=attachments">&nbsp;&nbsp;&#187; Lazer DataManager</option><option value="/projects/schedule-system?jump=attachments">&nbsp;&nbsp;&#187; JobMinder</option><option value="/projects/webtier?jump=attachments">&nbsp;&nbsp;&#187; Web Tier</option><option selected="selected" value="/projects/batchship?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Batch Ship Request System</option><option value="/projects/flash-schedules?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Flash Views</option><option value="/projects/internal-systems?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Internal Systems</option><option value="/projects/ncr-reports?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; NCRs</option><option value="/projects/listviews?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Schedule List Views</option><option value="/projects/timesheet?jump=attachments">&nbsp;&nbsp;&nbsp;&nbsp;&#187; Timesheet</option><option value="/projects/company-project?jump=attachments">FCP Hosted Company Projects</option><option value="/projects/bblgroup?jump=attachments">&nbsp;&nbsp;&#187; BBL Group</option><option value="/projects/gemini-mailing?jump=attachments">&nbsp;&nbsp;&#187; Gemini Mailing List Project</option><option value="/projects/panthergraphics?jump=attachments">&nbsp;&nbsp;&#187; Panther Graphics</option><option value="/projects/kb?jump=attachments">FCP Support Portal</option><option value="/projects/incoming?jump=attachments">Incoming</option><option value="/projects/rt-archive?jump=attachments">&nbsp;&nbsp;&#187; RT Archive</option><option value="/projects/it?jump=attachments">IT</option><option value="/projects/esko-artwork?jump=attachments">&nbsp;&nbsp;&#187; Esko</option><option value="/projects/inkxml-parser?jump=attachments">&nbsp;&nbsp;&#187; InkXML Parser</option><option value="/projects/redmine-issues?jump=attachments">&nbsp;&nbsp;&#187; Redmine</option><option value="/projects/web-native-elegant?jump=attachments">&nbsp;&nbsp;&#187; Xinet Web Native NAPC Elegant Portal</option></select>
+    </div>
+    
+
+    <h1><a href="/projects/developers?jump=attachments" class="root">Developers</a> » <a href="/projects/webtier?jump=attachments" class="ancestor">Web Tier</a> » Batch Ship Request System</h1>
+
+    
+    <div id="main-menu">
+        <ul><li><a href="/projects/batchship" class="overview">Overview</a></li>
+<li><a href="/projects/batchship/activity" class="activity">Activity</a></li>
+<li><a href="/projects/batchship/roadmap" class="roadmap">Roadmap</a></li>
+<li><a href="/projects/batchship/issues" class="issues">Issues</a></li>
+<li><a href="/projects/batchship/issues/new" accesskey="7" class="new-issue">New issue</a></li>
+<li><a href="/projects/batchship/wiki" class="wiki">Wiki</a></li>
+<li><a href="/projects/batchship/repository" class="repository">Repository</a></li>
+<li><a href="/projects/batchship/settings" class="settings">Settings</a></li></ul>
+    </div>
+    
+</div>
+
+<div class="nosidebar" id="main">
+    <div id="sidebar">
+        
+        
+    </div>
+
+    <div id="content">
+        
+        <h2>142923C.txt</h2>
+
+<div class="attachments">
+<p>
+   <span class="author"><a href="/users/285">Paul Diesenberg</a>, 07/24/2014 02:20 pm</span></p>
+<p><a href="/attachments/download/14293/142923C.txt">Download</a>   <span class="size">(17.6 kB)</span></p>
+
+</div>
+&nbsp;
+<div class="autoscroll">
+<table class="filecontent syntaxhl">
+<tbody>
+
+
+  <tr>
+    <th class="line-num" id="L1">
+      <a href="#L1">1</a>
+    </th>
+    <td class="line-code">
+      <pre>SeqNumber|JobNumber|Kit|PONumber|CompanyName|AttentionTo|Add1|Add2|Add3|City|StateProv|Country|Zip|PhoneNum|Service|BillTo|Package|Weight|SatDelivery|ResDelivery|GeneralDescription|InvReasonForExport|ImporterSameAsShipTo|GoodsDescriptionOfGoods|GoodsInvNAFTACOCountryOfOrigin|GoodsInvoiceUnits|GoodsInvoiceUnitsOfMeasure|GoodsInvoiceSEDUnitPrice|GoodsSEDCOGrossWeight|ThirdPartyCompanyName|ThirdPartyStreet|ThirdPartyCountry|ThirdPartyZip|ThirdPartyCity|ThirdPartyState|ThirdPartyAccount|ShipDate|DeliverBy|Blind Company|Dimension|PackID|Misc Reference 1|Misc Reference 2|Misc Reference 3|Misc Reference 4|Misc Reference 5|Insurance|Shipment_Type|Shipment_Type_Value
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L2">
+      <a href="#L2">2</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a675f|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Tanya Tremp|1150 E. North Ave|||Fresno|CA|US|93725|5594954381|UPSGRD|Third Party|Package|5|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|5|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||17x11x7||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L3">
+      <a href="#L3">3</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a6bf1|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Garrett Marcus|1200 Arroyo Street|||San Fernando|CA|US|91340|8188381200|UPSGRD|Third Party|Package|2|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|2|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L4">
+      <a href="#L4">4</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a6fdd|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Conrad Diaz|19700 South Figueroa St|||Torrance|CA|US|90745|3103274222|UPSGRD|Third Party|Package|2|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|2|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L5">
+      <a href="#L5">5</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a73bd|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Becky Vierya|200 W. River Rd.|||Modesto|CA|US|95351|2095575130|UPSGRD|Third Party|Package|2|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|2|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L6">
+      <a href="#L6">6</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a7797|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Susan Steele|215 East 21st Street|||Bakersfield|CA|US|93305|6616351141|UPSGRD|Third Party|Package|2|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|2|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L7">
+      <a href="#L7">7</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a7b72|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Charlene Melanson|2471 Nadeau Street|||Mojave|CA|US|93501|8058246002|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L8">
+      <a href="#L8">8</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a7f40|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Yvonne Maes|27717 Aliso Creek Road|||Aliso Viejo|CA|US|92656|9496435700|UPSGRD|Third Party|Package|4|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|4|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||17x11x7||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L9">
+      <a href="#L9">9</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a830e|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Sarah Paler|29000 Hesperian Blvd|||Hayward|CA|US|94545|5107813600|UPSGRD|Third Party|Package|5|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|5|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||17x11x7||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L10">
+      <a href="#L10">10</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a86fa|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|William Jones|3029 Coffey Lane|||Santa Rosa|CA|US|95401|7075354560|UPSGRD|Third Party|Package|2|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|2|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L11">
+      <a href="#L11">11</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a8ad6|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Felipe Ugalde|355 Edison Way|||Reno|NV|US|89502|7758561387|UPSGRD|Third Party|Package|2|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|2|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L12">
+      <a href="#L12">12</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a8ea8|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Tisha White|4375 N. Ventura Avenue|||Ventura|CA|US|93001|8056414228|UPSGRD|Third Party|Package|2|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|2|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L13">
+      <a href="#L13">13</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a927b|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Shane Jay|4416 N. Azusa Canyon Rd|||Baldwin Park|CA|US|91706|6263385531|UPSGRD|Third Party|Package|3|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|3|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||17x11x7||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L14">
+      <a href="#L14">14</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a9649|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Johnathan Thompson|4701 Park Rd|||Benicia|CA|US|94510|7077474262|UPSGRD|Third Party|Package|3|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|3|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L15">
+      <a href="#L15">15</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a9a18|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Teri Mavis|6500 W. Sunset|||Las Vegas|NV|US|89118|7022221111|UPSGRD|Third Party|Package|7|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|7|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||17x11x7||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L16">
+      <a href="#L16">16</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6a9dee|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Ashley Eash|6659 Sycamore Canyon Blvd|||Riverside|CA|US|92507|9516973230|UPSGRD|Third Party|Package|2|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|2|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L17">
+      <a href="#L17">17</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6aa301|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|James Schneider|7550 Reese Road|||Sacramento|CA|US|95828|9164230210|UPSGRD|Third Party|Package|11|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|11|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||19x14x12||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L18">
+      <a href="#L18">18</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6aa883|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|John Timpani|7995 Armour Street|||San Diego|CA|US|92111|8586374200|UPSGRD|Third Party|Package|3|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|3|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||17x11x7||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L19">
+      <a href="#L19">19</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6aac88|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Rick Valenti|83-801 Citrus Ave|||Indio|CA|US|92201|7607752660|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x18x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L20">
+      <a href="#L20">20</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6ab063|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Christa Hedrick|960 Kifer Road|||Sunnyvale|CA|US|94086|4086172222|UPSGRD|Third Party|Package|4|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|4|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||17x11x7||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L21">
+      <a href="#L21">21</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6ab438|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Jeremy Nordlund|1150 E. North Ave|||Fresno|CA|US|93725|5594954381|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L22">
+      <a href="#L22">22</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6ab814|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Kelly Lowry|135 Martella Street|||Salinas|CA|US|93901|8317962001|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L23">
+      <a href="#L23">23</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6abbf3|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Rob Long|135 Martella Street|||Salinas|CA|US|93901|8317962001|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L24">
+      <a href="#L24">24</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6abffa|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Denny Rogers|1480 Beltline Road|||Redding|CA|US|96001|5302413215|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L25">
+      <a href="#L25">25</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6ac3ef|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Mike Butterfield |1480 Beltline Road|||Redding|CA|US|96001|5302413215|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L26">
+      <a href="#L26">26</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6ac7e2|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Andrea Sanchez|19700 S. Figueroa Street|||Carson|CA|US|90745|6263385531|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L27">
+      <a href="#L27">27</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6acbc6|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Walter Brooks|200 W. River Rd.|||Modesto|CA|US|95351|2095575149|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L28">
+      <a href="#L28">28</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6acf91|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Tracy Snider |209 North Old Hwy 91|||Hurricane|UT|US|84737|4356345420|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L29">
+      <a href="#L29">29</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6ad36a|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Jason Backstrom|215 East 21st Street|||Bakersfield|CA|US|93305|6616351174|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L30">
+      <a href="#L30">30</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6ad734|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Blanca Perez|2345 Thompson Way|||Santa Maria|CA|US|93455|8057392187|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L31">
+      <a href="#L31">31</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6adb0c|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Edgar Berumen|2345 Thompson Way|||Santa Maria|CA|US|93455|8057392190|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L32">
+      <a href="#L32">32</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6aded5|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Amanda Lung|2433 2nd Street|||Eureka|CA|US|95501|7074762585|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L33">
+      <a href="#L33">33</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6ae2aa|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Micah Brogan|2471 Nadeau Street|||Mojave|CA|US|93501|8058246007|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L34">
+      <a href="#L34">34</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6ae693|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Jennifer Caro|355 Edison Way|||Reno|NV|US|89502|7758565526|UPSGRD|Third Party|Package|2|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|2|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L35">
+      <a href="#L35">35</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6aea6b|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Hazel Albert|4225 E. Pepsi Place|||Stockton|CA|US|95215|2099317206|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L36">
+      <a href="#L36">36</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6aee42|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Yale Button|4225 E. Pepsi Place|||Stockton|CA|US|95215|2099317219|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L37">
+      <a href="#L37">37</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6af21e|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Hazel Albert|4225 E. Pepsi Place|||Stockton|CA|US|95215|2099317206|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L38">
+      <a href="#L38">38</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6af5ea|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Kevin Hughes|4375 N. Ventura Avenue|||Ventura|CA|US|93001|8056414205|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L39">
+      <a href="#L39">39</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6af9b8|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Fermin Fonseca|602 H. Street|||Brawley|CA|US|92227|7603444383|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L40">
+      <a href="#L40">40</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6afd8d|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Joe Pringle|6240 Descanso Avenue|||Buena Park|CA|US|90620|7145529603|UPSGRD|Third Party|Package|3|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|3|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x8x5||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L41">
+      <a href="#L41">41</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6b0155|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Shay Hobby|6500 W. Sunset|||Las Vegas|NV|US|89118|7022221177|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L42">
+      <a href="#L42">42</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6b0525|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Jeff Gerali|750 Sutter St|||Yuba City |CA|US|95991|5308214822|UPSGRD|Third Party|Package|3|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|3|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L43">
+      <a href="#L43">43</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6b08fb|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Danielle Hanna|960 Kifer Road|||Sunnyvale|CA|US|94086|4086172222|UPSGRD|Third Party|Package|1|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|1|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+  <tr>
+    <th class="line-num" id="L44">
+      <a href="#L44">44</a>
+    </th>
+    <td class="line-code">
+      <pre>53d14df6b0cce|142923C|CALIFORNIA REGION|2453212|First Focus P9 #18344 #|Penny Evans|1100 Reynolds Blvd|||Winston-Salem|NC|US|27105|3368965331|UPSGRD|Third Party|Package|3|N|N|Printed Material $1.00 Value|Sale|Y|Printed Material $1.00 Value|US|1|EA|1|3|Pepsi Beverages Company |1 Pepsi Way |US|10589|Somers |NY|7868A3|08/01/2014|||13x10x1||142923C|2453212|CALIFORNIA REGION|||0|Batch Ship|batch_53d14df6a6523
+</pre>
+    </td>
+  </tr>
+  
+
+</tbody>
+</table>
+</div>
+
+
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="http://www.redmine.org/">Redmine</a> &copy; 2006-2012 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

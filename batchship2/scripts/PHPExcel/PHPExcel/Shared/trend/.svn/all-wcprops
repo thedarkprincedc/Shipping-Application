@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Shared/trend
+END
+logarithmicBestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Shared/trend/logarithmicBestFitClass.php
+END
+polynomialBestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Shared/trend/polynomialBestFitClass.php
+END
+exponentialBestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Shared/trend/exponentialBestFitClass.php
+END
+linearBestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Shared/trend/linearBestFitClass.php
+END
+trendClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Shared/trend/trendClass.php
+END
+powerBestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Shared/trend/powerBestFitClass.php
+END
+bestFitClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Shared/trend/bestFitClass.php
+END

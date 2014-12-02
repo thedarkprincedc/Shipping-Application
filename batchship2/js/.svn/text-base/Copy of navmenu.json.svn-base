@@ -1,0 +1,26 @@
+{
+    "application": {
+        "name": "BatchShip II",
+        "version": "2.0.0",
+        "email": "bmosley@fcp.biz"
+    },
+    "menu": [
+        {
+            "name": "Address Verification",
+            "url": "/AddressVerification"
+        },
+        {
+            "name": "Batch Ship Requests",
+            "url": "/BatchShipRequests"
+        },
+        {
+            "name": "Download Template",
+            "url": "temp"
+        }
+    ],
+    "logos": 
+    {
+        "fedex": "./content/fedex_logo.gif"
+
+    }
+}

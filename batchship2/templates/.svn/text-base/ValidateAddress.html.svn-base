@@ -1,0 +1,180 @@
+<div class="modal fade bs-example-modal-lg" id="addform" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+		    <div class="modal-body">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="media">
+							<a class="pull-left" href="#">
+							  	<div class="ship_logo fedex_logo" style="display:none;">
+									<img class="media-object" src="content/fedex_logo.gif" width="64px" />
+								</div>
+								<div class="ship_logo ups_logo" style="display:none;">
+									<img class="media-object" src="content/ups_logo.gif" class="img-responsive" />
+								</div>
+								</a>
+								<div class="media-body">
+									<div class="alert alert-info unialert" ng-show="vvti">
+										<div class="title"><b>{{vvti.title}} Validation</b></div>
+										<div class="validation_score">Validation Score: {{vvti.score}}</div>
+										<div class="validation_changes" ng-hide="vvti.changes=='CONFIRMED'">Proposed Changes: {{vvti.changes}}</div>
+										<div class="validation_status"><b>{{vvti.status}}</b></div>
+									</div>
+									
+									
+								</div>
+						</div>
+					</div>
+				</div>
+				<ul class="nav nav-tabs">
+					<li class="active"><a show-tab class="address_options" href="#AddressOptions" data-toggle="tab">Address</a></li>
+				  	<li><a show-tab class="item_options" href="#ItemOptions" data-toggle="tab">Item</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">	
+					<div class="tab-pane fade in active" id="AddressOptions">
+						<div class="row">
+							<div class="col-xs-6">
+								<h4>Current Address</h4>
+								<div class="form-group">
+									<label for="OrigStreetLines1">Building Name (Address 1)</label>
+									<input type="text" name="OrigStreetLines1" id="OrigStreetLines1" class="form-control" ng-model="currentAddress.address1" ng-disabled="viewonly==true" />
+								</div>
+								<div class="form-group">
+									<label for="OrigStreetLines2">Street Address (Address 2)</label>
+									<input type="text" trs-Rx name="OrigStreetLines2" id="OrigStreetLines2" class="form-control" ng-model="currentAddress.address2" ng-disabled="viewonly==true" />							
+								</div>
+								<div class="form-group">
+									<label for="OrigStreetLines3">Extra Address (Address 3)</label>
+									<input type="text" name="OrigStreetLines3" id="OrigStreetLines3" class="form-control" ng-model="currentAddress.address3" ng-disabled="viewonly==true" />
+								</div>
+								<div class="form-group">
+									<label for="City">City</label>
+									<input type="text" name="City" id="City" class="form-control" ng-model="currentAddress.city" ng-disabled="viewonly==true" />
+								</div>
+								<div class="row">
+									<div class="form-group col-xs-3">
+										<label for="StateOrProvinceCode">State/Province</label>
+										<input type="text" name="StateOrProvinceCode" id="StateOrProvinceCode" class="form-control" ng-model="currentAddress.state" state-Correction ng-disabled="viewonly==true" />
+									</div>
+									<div class="col-xs-1"></div>
+									<div class="form-group col-xs-5">
+										<label for="PostalCode">PostalCode</label>
+										<input type="text" name="postal_code" class="form-control" ng-model="currentAddress.postalcode" ng-disabled="viewonly==true" />
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col-xs-3">
+										<label for="CountryCode">CountryCode</label>
+										<input type="text" name="CountryCode" id="CountryCode" class="form-control" ng-model="currentAddress.country" country-Correction class="input-medium" ng-disabled="viewonly==true" />
+									</div>
+								</div>	
+							</div>
+							<div class="col-xs-6" ng-hide="(viewonly==true) || (validated == true)">
+								<div class="list-group proposed_address">
+									<h4>Proposed Address</h4>
+									<a ng-repeat="listaddress in listofpropaddress" href="#" class="list-group-item" data-id="{{$index}}" prop-Address>
+										<strong>{{listaddress.type}}</strong><br/>
+										
+										<span ng-show="listaddress.add1">{{listaddress.add1}}<br/></span>
+										<span ng-show="listaddress.add2">{{listaddress.add2}}<br/></span>
+										<span ng-show="listaddress.add3">{{listaddress.add3}}<br/></span>
+										<span ng-show="listaddress.City">{{listaddress.City}}, </span>{{listaddress.StateOrProvinceCode}} {{listaddress.PostalCode}}<br/>
+									  	{{listaddress.CountryCode}}
+										<!--<b>{{listaddress.type}}</b><br/>
+										{{listaddress.StreetLines|arrayStreetString}}<br/>
+									  	{{listaddress.City}}, {{listaddress.StateOrProvinceCode}} {{listaddress.PostalCode}}<br/>
+									  	{{listaddress.CountryCode}}
+									 </br/>-->
+									  	<!--<address>
+										  <strong>{{listaddress.type}}</strong><br>
+										  <span ng-show="listaddress.StreetLines">{{listaddress.StreetLines|arrayStreetString}}<br/></span>  									 
+										  <span ng-show="listaddress.City">{{listaddress.City}},</span> <span ng-show="listaddress.StateOrProvinceCode">{{listaddress.StateOrProvinceCode}}<br/></span>
+										  <span ng-show="listaddress.PostalCode">{{listaddress.PostalCode}}</span> <span ng-show="listaddress.CountryCode">{{listaddress.CountryCode}}</span>				
+										</address>-->
+									</a>
+								</div>
+							</div>		
+						</div>
+					</div>
+					<!-- -->
+					<div class="tab-pane fade" id="ItemOptions">
+						<div class="row">
+							<div class="col-xs-6">
+								<h4>Item Options</h4>
+								<div class="row">
+									<div class="form-group col-xs-8">
+										<label for="StreetLines">Store Name</label>
+										<input type="text" name="StreetLines" id="OrigStreetLines" class="form-control" ng-model="itemData.store_name" ng-disabled="viewonly==true" />
+									</div>
+									<div class="form-group col-xs-4">
+										<label for="StreetLines">Store Number</label>
+										<input type="text" name="StreetLines" id="OrigStreetLines" class="form-control" ng-model="itemData.store_number" ng-disabled="viewonly==true" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="StreetLines">Attention</label>
+									<input type="text" name="StreetLines" id="OrigStreetLines" class="form-control" ng-model="itemData.attn" ng-disabled="viewonly==true" />
+								</div>
+								<div class="form-group">
+									<label for="StreetLines">Phone Number</label>
+									<input type="text" name="StreetLines" id="OrigStreetLines" class="form-control" ng-model="itemData.phone_number" ng-disabled="viewonly==true" phonenumber-Correction/>
+								</div>
+								<div class="form-group">
+									<label for="StreetLines">Kit Number</label>
+									<input type="text" name="StreetLines" id="OrigStreetLines" class="form-control" ng-model="itemData.kit_number" ng-disabled="viewonly==true" />
+								</div>
+								<div class="row">
+									<div class="form-group col-xs-6">
+										<label for="StreetLines">Weight (in lbs)</label>
+										<input type="text" name="StreetLines" id="OrigStreetLines" class="form-control" ng-model="itemData.weight" ng-disabled="viewonly==true" weight-Correction/>
+									</div>
+									<div class="form-group col-xs-6">
+										<label for="StreetLines">Dimensions</label>
+										<input type="text" name="StreetLines" id="OrigStreetLines" class="form-control" ng-model="itemData.dimensions" ng-disabled="viewonly==true" dimension-Correction />
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<h4>&nbsp;</h4>
+								<div class="row">
+									<div class="form-group col-xs-9">
+										<label for="ShippingMethod">Shipping Method</label>
+										<select name="ShippingMethod" id="ShippingMethod" class="form-control" ng-model="itemData.shipping_method" ng-options="shippingtypesopt.label group by shippingtypesopt.company for shippingtypesopt in shippingtypelist track by shippingtypesopt.value" >
+											
+										</select>
+									</div>
+									<div class="form-group col-xs-3">
+										<label for="StreetLines">Insurance</label>
+										<input type="text" name="StreetLines" id="OrigStreetLines" class="form-control" ng-model="itemData.insurance" ng-disabled="viewonly==true" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="ThirdPartyShipping">Third Party Shipping</label>
+									<select name="ThirdPartyShipping" id="ThirdPartyShipping" ng-model="itemData.thirdpartyshipping" class="form-control" ng-options="thirdpartyshipopt.labelrev group by thirdpartyshipopt.company_name for thirdpartyshipopt in thirdpartyshippingitems">
+										<option></option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- -->
+				</div>
+				<!-- /Tab panes -->
+			
+						<div class="row center-block">
+							<button class="btn btn-danger" ng-model="action" ng-click="onClickDelete()" ng-disabled="viewonly==true">
+								<span class="glyphicon glyphicon-floppy-remove" data-dismiss="modal"></span>&nbsp;Delete
+							</button>
+							<button class="btn btn-success" ng-model="action" ng-click="onClickMarkAsValidated()" ng-disabled="viewonly==true">
+								<span class="glyphicon glyphicon-ok" data-dismiss="modal"></span>&nbsp;Mark As Validated
+							</button>
+							<button class="btn btn-primary" ng-model="action" ng-click="onClickSave()" ng-disabled="viewonly==true">
+								<span class="glyphicon glyphicon-floppy-save"></span>&nbsp;Save
+							</button>
+						</div>	
+		</div>
+	    <div class="modal-footer"><button type="submit" class="btn btn-primary" data-dismiss="modal">Close</button></div>
+	</div>
+	</div>
+</div>

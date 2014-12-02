@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Net
+END
+SMTP.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Net/SMTP.php
+END
+Socket.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Net/Socket.php
+END

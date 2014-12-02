@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Writer
+END
+Excel2007.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Writer/Excel2007.php
+END
+PDF.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Writer/PDF.php
+END
+CSV.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Writer/CSV.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Writer/Exception.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Writer/Abstract.php
+END
+HTML.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Writer/HTML.php
+END
+Excel5.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Writer/Excel5.php
+END
+IWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Writer/IWriter.php
+END

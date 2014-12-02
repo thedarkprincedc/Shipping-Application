@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api
+END
+class.upsapinterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/class.upsapinterface.php
+END
+UpsAPI.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/UpsAPI.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/index.php
+END

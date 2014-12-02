@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<AddressValidationResponse>
+	<Response>
+		<TransactionReference>
+			<CustomerContext>Your Test Case Summary Description</CustomerContext>
+			<XpciVersion>1.0</XpciVersion>
+		</TransactionReference>
+		<ResponseStatusCode>1</ResponseStatusCode>
+	</Response>
+	<AmbiguousAddressIndicator/>
+	<AddressClassification>
+		<Code>0</Code>
+		<Description>Unknown</Description>
+	</AddressClassification>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>5301-5399 AIRWAY RD</AddressLine>
+		<Region>SAN DIEGO CA 92154-4806</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>4806</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7500-7599 AIRWAY RD</AddressLine>
+		<Region>SAN DIEGO CA 92154-8300</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8300</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7510 AIRWAY RD</AddressLine>
+		<Region>SAN DIEGO CA 92154-8303</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8303</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7510 AIRWAY RD</AddressLine>
+		<AddressLine>STE 7</AddressLine>
+		<Region>SAN DIEGO CA 92154-8303</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8303</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7520 AIRWAY RD</AddressLine>
+		<AddressLine>STE 7</AddressLine>
+		<Region>SAN DIEGO CA 92154-8034</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8034</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7520 AIRWAY RD</AddressLine>
+		<Region>SAN DIEGO CA 92154-8304</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8304</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7520 AIRWAY RD</AddressLine>
+		<AddressLine>STE 1-6</AddressLine>
+		<Region>SAN DIEGO CA 92154-8304</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8304</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7577 AIRWAY RD</AddressLine>
+		<Region>SAN DIEGO CA 92154-8306</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8306</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7577 AIRWAY RD</AddressLine>
+		<AddressLine>STE 100-107</AddressLine>
+		<Region>SAN DIEGO CA 92154-8306</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8306</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7800-7899 AIRWAY RD</AddressLine>
+		<Region>SAN DIEGO CA 92154-8305</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8305</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7880 AIRWAY RD</AddressLine>
+		<AddressLine>STE B1-B10</AddressLine>
+		<Region>SAN DIEGO CA 92154-8308</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8308</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7880 AIRWAY RD</AddressLine>
+		<AddressLine>STE B6B-B6F</AddressLine>
+		<Region>SAN DIEGO CA 92154-8308</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8308</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7880 AIRWAY RD</AddressLine>
+		<AddressLine>STE B5B-B5G</AddressLine>
+		<Region>SAN DIEGO CA 92154-8308</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8308</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7880 AIRWAY RD</AddressLine>
+		<Region>SAN DIEGO CA 92154-8308</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8308</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+	<AddressKeyFormat>
+		<AddressClassification>
+			<Code>0</Code>
+			<Description>Unknown</Description>
+		</AddressClassification>
+		<AddressLine>7900-7998 AIRWAY RD</AddressLine>
+		<Region>SAN DIEGO CA 92154-8309</Region>
+		<PoliticalDivision2>SAN DIEGO</PoliticalDivision2>
+		<PoliticalDivision1>CA</PoliticalDivision1>
+		<PostcodePrimaryLow>92154</PostcodePrimaryLow>
+		<PostcodeExtendedLow>8309</PostcodeExtendedLow>
+		<CountryCode>US</CountryCode>
+	</AddressKeyFormat>
+</AddressValidationResponse>

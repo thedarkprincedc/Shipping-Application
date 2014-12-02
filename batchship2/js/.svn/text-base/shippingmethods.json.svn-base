@@ -1,0 +1,94 @@
+{
+"shipping_method": [
+     {
+            "name": "UPS",
+            "logo": "./content/ups_logo.gif",
+            "options": [
+                {
+                    "name": "UPS Ground",
+                    "value": "UPSGRD"
+             
+                },
+                {
+                    "name": "UPS Next Day Saver",
+                    "value": "UPSNDP"
+                    
+                },
+                {
+                    "name": "UPS 2nd Day Air",
+                    "value": "UPS2DP"
+                },
+                {
+                    "name": "UPS 3rd Day Air",
+                    "value": "UPS3DP"
+                },
+                {
+                    "name": "UPS Worldwide Exp Saver",
+                    "value": "UPSWWS"
+                },
+                {
+                    "name": "UPS Next Day Early AM",
+                    "value": "UPSNDE"
+                },
+                {
+                    "name": "UPS Next Day Air 10:30",
+                    "value": "UPSNDA"
+                },
+                {
+                    "name": "UPS Canada Standard",
+                    "value": "UPSSTD"
+                },
+                {
+                    "name": "UPS Worldwide Express",
+                    "value": "UPSEXP"
+                },
+                {
+                    "name": "UPS Worldwide Expedited",
+                    "value": "UPSEPD"
+                }
+            ]
+        },
+        {
+            "name": "FedEx",
+            "logo": "./content/fedex_logo.gif",
+            "options": [
+                {
+                    "name": "FedEx Ground",
+                    "value": "FDXGRD"
+                },
+                {
+                    "name": "FedEx Priority (Next Day Air)",
+                    "value": "FDXNDA"
+                },
+                {
+                    "name": "FedEx Economy (2nd Day Air)",
+                    "value": "FDX2DP"
+                },
+                {
+                    "name": "FedEx International Priority",
+                    "value": "FDXEXP"
+                },
+                {
+                    "name": "FedEx International Economy",
+                    "value": "FDXEPD"
+                },
+                {
+                    "name": "FedEx First Next Day Early AM",
+                    "value": "FDXNDE"
+                },
+                {
+                    "name": "FedEx Standard (Next Day Air)",
+                    "value": "FDXNDP"
+                },
+                {
+                    "name": "FedEx Exp Saver (3rd Day Air)",
+                    "value": "FDX3DP"
+                },
+                {
+                    "name": "FedEx International First",
+                    "value": "FDXIFO"
+                }
+            ]
+        }
+    ]
+}

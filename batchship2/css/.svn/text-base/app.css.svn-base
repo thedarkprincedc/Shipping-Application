@@ -1,0 +1,41 @@
+td, th{
+	font-size:0.9em;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 999px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+#Login_Form{
+	max-height: 80%;
+  overflow-y: auto;
+
+  .modal-body {
+    max-height: none;
+    text-align: center;
+  }
+}
+.loggedinbackground { background: #EDF4F4; }
+.pac-container{
+	z-index: 2000;
+}
+iframe{
+    background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+}

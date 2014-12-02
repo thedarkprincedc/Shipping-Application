@@ -1,0 +1,86 @@
+{
+    "excel_headers": [
+        {
+            "name": "Store Name"
+        },
+        {
+            "name": "Store Number"
+        },
+        {
+            "name": "Address1"
+        },
+        {
+            "name": "Address2"
+        },
+        {
+            "name": "Address3"
+        },
+        {
+            "name": "City"
+        },
+        {
+            "name": "State/Province"
+        },
+        {
+            "name": "Postal Code"
+        },
+        {
+            "name": "Country"
+        },
+        {
+            "name": "Attn"
+        },
+        {
+            "name": "Phone Number"
+        },
+        {
+            "name": "KitNumber"
+        },
+        {
+            "name": "Weight"
+        },
+        {
+            "name": "Dimensions"
+        },
+        {
+            "name": "Misc Reference 1"
+        },
+        {
+            "name": "Misc Reference 2"
+        },
+        {
+            "name": "Misc Reference 3"
+        },
+        {
+            "name": "Misc Reference 4"
+        },
+        {
+            "name": "Misc Reference 5"
+        },
+        {
+            "name": "Insurance"
+        },
+        {
+            "name": "ThirdPartyCompanyName"
+        },
+        {
+            "name": "ThirdPartyStreet"
+        },
+        {
+            "name": "ThirdPartyCountry"
+        },
+        {
+            "name": "ThirdPartyZip"
+        },
+        {
+            "name": "ThirdPartyCity"
+        },
+        {
+            "name": "ThirdPartyState"
+        },
+        {
+            "name": "ThirdPartyAccount"
+        }
+    ]
+}
+

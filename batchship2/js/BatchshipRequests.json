@@ -1,0 +1,43 @@
+{
+    "application": {
+        "name": "BatchShip II"
+    },
+    
+    "package_type": [
+        {
+            "name": "Package"
+        },
+        {
+            "name": "Letter"
+        },
+        {
+            "name": "Tube"
+        }
+    ],
+    "bill_to": [
+        {
+            "name": "Third Party"
+        },
+        {
+            "name": "Reciever"
+        },
+        {
+            "name": "Sender"
+        }
+    ],
+    "destination_type": [
+        {
+            "name": "Domestic",
+            "default": true
+        },
+        {
+            "name": "Puerto Rico"
+        },
+        {
+            "name": "Canada"
+        },
+        {
+            "name": "International"
+        }
+    ]
+}

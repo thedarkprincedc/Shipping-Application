@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader
+END
+Excel2007.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/Excel2007.php
+END
+Gnumeric.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/Gnumeric.php
+END
+IReadFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/IReadFilter.php
+END
+CSV.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/CSV.php
+END
+IReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/IReader.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/Exception.php
+END
+OOCalc.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/OOCalc.php
+END
+SYLK.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/SYLK.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/Abstract.php
+END
+HTML.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/HTML.php
+END
+Excel5.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/Excel5.php
+END
+DefaultReadFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/DefaultReadFilter.php
+END
+Excel2003XML.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPExcel/PHPExcel/Reader/Excel2003XML.php
+END

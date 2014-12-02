@@ -1,0 +1,57 @@
+[general_settings]
+app_name = "BatchShip II"
+temp_file_directory = "/temp"
+dl_file_directory = "/files"
+
+;testing database
+[database_settings]
+host="sched-db.fcp.biz"
+port="5432"
+dbname="batchship2"
+user="bmosley"
+passsword="bm7830"
+
+;production database
+;[database_settings]
+;host="sched-db.fcp.biz"
+;port="5432"
+;dbname="batchship2_prod"
+;user="bmosley"
+;passsword="bm7830"
+
+[upload_settings]
+allowed_file_extensions = "xls|xlst"
+allowed_file_type = "application/vnd.ms-excel|application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+max_filesize = 2000000
+
+[account_settings]
+authentication = "ad"
+admin_user = "admin"
+admin_pass = "fcp"
+
+[email_settings]
+server_hostname = "mail.fcp.biz"
+server_account = "brett_mosley@fcp.biz"
+server_password = "DricasM4x"
+batchship_mailinglist_to = "james_rowe@fcp.biz;brett_mosley@fcp.biz"
+batchship_mailinglist_cc = "sirbrettmosley@fcp.biz"
+error_log = "brett_mosley@fcp.biz"
+
+[ups_account_settings]
+ServiceAccessLicenseKey1 = "1CB7DF83DFECF1D5"
+ServiceAccessLicenseKey2 = "2CB7DF55BD6ED236"
+Username = "brettmosley"
+Password = "DricasM4x"
+ValidationWSDL = "PHPUPSWSDL/UPSWSDL/XAV.wsdl"
+ValidationOperation = "ProcessXAV"
+;test endpoint
+;Endpoint = "https://wwwcie.ups.com/webservices/XAV"
+;production endpoint
+Endpoint = "https://onlinetools.ups.com/webservices/XAV"
+
+[fedex_account_settings]
+auth_key = "69FFe4i4e3ANwDpO"
+password = "C6QnlXL0L6MQjig9GzGgkWnkf"
+account_number = "208197061"
+meter_number = "101762178"
+

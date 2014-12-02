@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/batchship/!svn/ver/159/branches/batchship-2.0/scripts
+END
+class.batchship.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/batchship/!svn/ver/216/branches/batchship-2.0/scripts/class.batchship.php
+END
+testlog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/batchship/!svn/ver/216/branches/batchship-2.0/scripts/testlog.txt
+END
+processBatchShipItemsForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/216/branches/batchship-2.0/scripts/processBatchShipItemsForm.php
+END
+class.logging.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/batchship/!svn/ver/216/branches/batchship-2.0/scripts/class.logging.php
+END
+thirdPartyBilling.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/batchship/!svn/ver/151/branches/batchship-2.0/scripts/thirdPartyBilling.php
+END
+generateExcelfile.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/batchship/!svn/ver/216/branches/batchship-2.0/scripts/generateExcelfile.php
+END
+Copy of thirdPartyBilling.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/150/branches/batchship-2.0/scripts/Copy%20of%20thirdPartyBilling.php
+END
+loginad.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/batchship/!svn/ver/178/branches/batchship-2.0/scripts/loginad.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/batchship/!svn/ver/199/branches/batchship-2.0/scripts/test.php
+END
+class.pgsqldatabase.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/batchship/!svn/ver/216/branches/batchship-2.0/scripts/class.pgsqldatabase.php
+END
+class.adlogin.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/batchship/!svn/ver/178/branches/batchship-2.0/scripts/class.adlogin.php
+END
+lookupCustomerByJob.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/batchship/!svn/ver/214/branches/batchship-2.0/scripts/lookupCustomerByJob.php
+END
+import_thirdPartyBilling.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/batchship/!svn/ver/216/branches/batchship-2.0/scripts/import_thirdPartyBilling.php
+END
+eventlogging.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/batchship/!svn/ver/216/branches/batchship-2.0/scripts/eventlogging.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/PackageFile/v2
+END
+Validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/PackageFile/v2/Validator.php
+END
+rw.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/PackageFile/v2/rw.php
+END

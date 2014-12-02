@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/batchship/!svn/ver/159/branches/batchship-2.0/partials
+END
+Mainlogin.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/batchship/!svn/ver/135/branches/batchship-2.0/partials/Mainlogin.php
+END
+AdminMain.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/batchship/!svn/ver/151/branches/batchship-2.0/partials/AdminMain.php
+END
+BatchshipRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/batchship/!svn/ver/213/branches/batchship-2.0/partials/BatchshipRequest.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/batchship/!svn/ver/214/branches/batchship-2.0/partials/User.php
+END
+RegisterEmailAddress.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/batchship/!svn/ver/126/branches/batchship-2.0/partials/RegisterEmailAddress.php
+END
+UpdateBatchAddresses.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/batchship/!svn/ver/204/branches/batchship-2.0/partials/UpdateBatchAddresses.php
+END
+UpdateBatchAddresses2.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/batchship/!svn/ver/200/branches/batchship-2.0/partials/UpdateBatchAddresses2.php
+END
+ManageThirdPartyShipping.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/168/branches/batchship-2.0/partials/ManageThirdPartyShipping.php
+END
+Help.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/batchship/!svn/ver/189/branches/batchship-2.0/partials/Help.php
+END

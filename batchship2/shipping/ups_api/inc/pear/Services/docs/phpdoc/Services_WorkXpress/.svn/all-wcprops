@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress
+END
+_Request.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Request.php.html
+END
+_WorkXpress---Request---ExecuteBusinessRules.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Request---ExecuteBusinessRules.php.html
+END
+_WorkXpress---Request---StoreItemDataMass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Request---StoreItemDataMass.php.html
+END
+_Response---LookupData.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Response---LookupData.php.html
+END
+_Response---StoreItemData.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Response---StoreItemData.php.html
+END
+Services_WorkXpress_Response_ExecuteBusinessRules.html
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Response_ExecuteBusinessRules.html
+END
+_Request---ExecuteBusinessRulesMass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Request---ExecuteBusinessRulesMass.php.html
+END
+_Response.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Response.php.html
+END
+_Request---AddNewItem.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Request---AddNewItem.php.html
+END
+Services_WorkXpress_Request_AddNewItemMass.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Request_AddNewItemMass.html
+END
+Services_WorkXpress_Request_StoreItemData.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Request_StoreItemData.html
+END
+_WorkXpress---Request---LookupData.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Request---LookupData.php.html
+END
+Services_WorkXpress.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress.html
+END
+Services_WorkXpress_Response_LookupData.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Response_LookupData.html
+END
+_Response---AddNewItem.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Response---AddNewItem.php.html
+END
+_Request---LookupDataMass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Request---LookupDataMass.php.html
+END
+_Request---StoreItemDataMass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Request---StoreItemDataMass.php.html
+END
+_WorkXpress---Response---StoreItemData.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Response---StoreItemData.php.html
+END
+_examples---store_item_data-mass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_examples---store_item_data-mass.php.html
+END
+_examples---config.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_examples---config.php.html
+END
+_WorkXpress---Request---ExecuteBusinessRulesMass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Request---ExecuteBusinessRulesMass.php.html
+END
+Services_WorkXpress_Request.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Request.html
+END
+_WorkXpress---Exception.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Exception.php.html
+END
+_WorkXpress---Response.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Response.php.html
+END
+_WorkXpress---Request---AddNewItem.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Request---AddNewItem.php.html
+END
+Services_WorkXpress_Response_AddNewItem.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Response_AddNewItem.html
+END
+_Request---AddNewItemMass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Request---AddNewItemMass.php.html
+END
+Services_WorkXpress_Request_ExecuteBusinessRules.html
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Request_ExecuteBusinessRules.html
+END
+Services_WorkXpress_Request_StoreItemDataMass.html
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Request_StoreItemDataMass.html
+END
+_WorkXpress---Request---LookupDataMass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Request---LookupDataMass.php.html
+END
+_examples---add_new_item-mass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_examples---add_new_item-mass.php.html
+END
+_WorkXpress.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress.php.html
+END
+_Exception.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Exception.php.html
+END
+_WorkXpress---Response---ExecuteBusinessRules.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Response---ExecuteBusinessRules.php.html
+END
+Services_WorkXpress_Request_LookupData.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Request_LookupData.html
+END
+_WorkXpress---Request---AddNewItemMass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Request---AddNewItemMass.php.html
+END
+_WorkXpress---Request---StoreItemData.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Request---StoreItemData.php.html
+END
+_WorkXpress---Request.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Request.php.html
+END
+Services_WorkXpress_Response_StoreItemData.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Response_StoreItemData.html
+END
+_WorkXpress---Response---LookupData.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Response---LookupData.php.html
+END
+_examples---lookup_data.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_examples---lookup_data.php.html
+END
+_Request---ExecuteBusinessRules.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Request---ExecuteBusinessRules.php.html
+END
+_examples---lookup_data-mass.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_examples---lookup_data-mass.php.html
+END
+_examples---store_item_data.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_examples---store_item_data.php.html
+END
+Services_WorkXpress_Request_ExecuteBusinessRulesMass.html
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Request_ExecuteBusinessRulesMass.html
+END
+Services_WorkXpress_API_Exception.html
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_API_Exception.html
+END
+Services_WorkXpress_Request_AddNewItem.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Request_AddNewItem.html
+END
+_Response---ExecuteBusinessRules.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Response---ExecuteBusinessRules.php.html
+END
+_Request---LookupData.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Request---LookupData.php.html
+END
+Services_WorkXpress_Exception.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Exception.html
+END
+Services_WorkXpress_Response.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Response.html
+END
+Services_WorkXpress_Request_LookupDataMass.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/Services_WorkXpress_Request_LookupDataMass.html
+END
+_Request---StoreItemData.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_Request---StoreItemData.php.html
+END
+_examples---add_new_item.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_examples---add_new_item.php.html
+END
+_WorkXpress---Response---AddNewItem.php.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Services/docs/phpdoc/Services_WorkXpress/_WorkXpress---Response---AddNewItem.php.html
+END

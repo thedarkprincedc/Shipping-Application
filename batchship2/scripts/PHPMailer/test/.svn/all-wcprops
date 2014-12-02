@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/test
+END
+test_callback.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/test/test_callback.php
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/test/bootstrap.php
+END
+testbootstrap-dist.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/test/testbootstrap-dist.php
+END
+fakepopserver.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/test/fakepopserver.sh
+END
+phpmailerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/test/phpmailerTest.php
+END
+phpmailerLangTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/test/phpmailerLangTest.php
+END
+runfakepopserver.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/test/runfakepopserver.sh
+END
+fakesendmail.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/126/branches/batchship-2.0/scripts/PHPMailer/test/fakesendmail.sh
+END

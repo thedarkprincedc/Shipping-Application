@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR
+END
+Validate.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Validate.php
+END
+PackageFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/PackageFile.php
+END
+Remote.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Remote.php
+END
+Installer.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Installer.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Exception.php
+END
+Downloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Downloader.php
+END
+Autoloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Autoloader.php
+END
+Dependency2.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Dependency2.php
+END
+RunTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/RunTest.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Config.php
+END
+Registry.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Registry.php
+END
+ChannelFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/ChannelFile.php
+END
+XMLParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/XMLParser.php
+END
+REST.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/REST.php
+END
+Packager.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Packager.php
+END
+Dependency.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Dependency.php
+END
+Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Command.php
+END
+ErrorStack.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/ErrorStack.php
+END
+Frontend.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Frontend.php
+END
+DependencyDB.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/DependencyDB.php
+END
+Builder.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Builder.php
+END
+Common.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/PEAR/Common.php
+END

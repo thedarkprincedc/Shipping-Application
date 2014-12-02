@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB
+END
+mssql.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/mssql.php
+END
+sqlite.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/sqlite.php
+END
+oci8.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/oci8.php
+END
+storage.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/storage.php
+END
+mysql.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/mysql.php
+END
+odbc.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/odbc.php
+END
+fbsql.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/fbsql.php
+END
+msql.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/msql.php
+END
+mysqli.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/mysqli.php
+END
+dbase.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/dbase.php
+END
+ibase.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/ibase.php
+END
+sybase.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/sybase.php
+END
+pgsql.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/pgsql.php
+END
+ifx.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/ifx.php
+END
+common.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/DB/common.php
+END

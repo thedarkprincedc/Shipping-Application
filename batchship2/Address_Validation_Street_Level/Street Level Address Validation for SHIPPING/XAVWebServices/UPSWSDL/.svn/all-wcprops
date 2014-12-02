@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/batchship/!svn/ver/129/branches/batchship-2.0/Address_Validation_Street_Level/Street%20Level%20Address%20Validation%20for%20SHIPPING/XAVWebServices/UPSWSDL
+END
+common.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/batchship/!svn/ver/129/branches/batchship-2.0/Address_Validation_Street_Level/Street%20Level%20Address%20Validation%20for%20SHIPPING/XAVWebServices/UPSWSDL/common.xsd
+END
+Error1.1.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/batchship/!svn/ver/129/branches/batchship-2.0/Address_Validation_Street_Level/Street%20Level%20Address%20Validation%20for%20SHIPPING/XAVWebServices/UPSWSDL/Error1.1.xsd
+END
+XAV.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/batchship/!svn/ver/129/branches/batchship-2.0/Address_Validation_Street_Level/Street%20Level%20Address%20Validation%20for%20SHIPPING/XAVWebServices/UPSWSDL/XAV.wsdl
+END
+XAVWebServiceSchema.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/batchship/!svn/ver/129/branches/batchship-2.0/Address_Validation_Street_Level/Street%20Level%20Address%20Validation%20for%20SHIPPING/XAVWebServices/UPSWSDL/XAVWebServiceSchema.xsd
+END
+UPSSecurity.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/batchship/!svn/ver/129/branches/batchship-2.0/Address_Validation_Street_Level/Street%20Level%20Address%20Validation%20for%20SHIPPING/XAVWebServices/UPSWSDL/UPSSecurity.xsd
+END

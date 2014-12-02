@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/batchship/!svn/ver/159/branches/batchship-2.0
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/batchship/!svn/ver/126/branches/batchship-2.0/.project
+END
+configuration.ini
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/batchship/!svn/ver/183/branches/batchship-2.0/configuration.ini
+END
+batchship2.sql
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/batchship/!svn/ver/190/branches/batchship-2.0/batchship2.sql
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/batchship/!svn/ver/200/branches/batchship-2.0/index.php
+END

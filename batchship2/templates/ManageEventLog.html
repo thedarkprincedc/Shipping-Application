@@ -1,0 +1,32 @@
+<div class="container" ng-controller="ManageEventLogController">
+	<h3>View Log</h3>
+	<div class="alert alert-success" style="display:none;"></div>
+	<div class="alert alert-danger" style="display:none;"></div>
+	<div class="form-group">
+		<label for="batchid">Search</label>
+		<input type="text" name="batchid" class="form-control" ng-model="search.$" />
+	</div>
+	<table class="table">
+	<thead>
+		<tr>
+		<th>ID</th>
+		<th>Subject</th>
+		<th>Description</th>
+		<th>BatchID</th>
+		<th>Time</th>
+		<th>User</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="logitem in events | filter:search | limitTo: 10 ">
+			<td>{{logitem.id}}</td>
+			<td ng-bind="logitem.subject"></td>
+			<td ng-bind="logitem.description"></td>
+			<td ng-bind="logitem.batch_id"></td>
+			<td ng-bind="logitem.timestamp"></td>
+			<td ng-bind="logitem.user_id"></td>
+		</tr>
+	</tbody>
+	<tfoot></tfoot>
+	</table>
+</div>

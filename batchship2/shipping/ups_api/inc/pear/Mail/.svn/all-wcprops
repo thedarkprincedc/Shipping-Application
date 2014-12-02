@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Mail
+END
+null.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Mail/null.php
+END
+mimeDecode.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Mail/mimeDecode.php
+END
+sendmail.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Mail/sendmail.php
+END
+mimePart.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Mail/mimePart.php
+END
+mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Mail/mail.php
+END
+smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Mail/smtp.php
+END
+RFC822.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Mail/RFC822.php
+END
+mime.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/Mail/mime.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/data/Structures_Graph
+END
+publish.sh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/data/Structures_Graph/publish.sh
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/data/Structures_Graph/LICENSE
+END
+package.sh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/data/Structures_Graph/package.sh
+END
+genpackage.xml.pl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/data/Structures_Graph/genpackage.xml.pl
+END

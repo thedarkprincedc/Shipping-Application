@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/batchship/!svn/ver/129/branches/batchship-2.0/scripts/PHPUPSWSDL/UPSWSDL
+END
+common.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/129/branches/batchship-2.0/scripts/PHPUPSWSDL/UPSWSDL/common.xsd
+END
+Error1.1.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/batchship/!svn/ver/129/branches/batchship-2.0/scripts/PHPUPSWSDL/UPSWSDL/Error1.1.xsd
+END
+XAV.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/batchship/!svn/ver/129/branches/batchship-2.0/scripts/PHPUPSWSDL/UPSWSDL/XAV.wsdl
+END
+XAVWebServiceSchema.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/batchship/!svn/ver/129/branches/batchship-2.0/scripts/PHPUPSWSDL/UPSWSDL/XAVWebServiceSchema.xsd
+END
+UPSSecurity.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/129/branches/batchship-2.0/scripts/PHPUPSWSDL/UPSWSDL/UPSSecurity.xsd
+END

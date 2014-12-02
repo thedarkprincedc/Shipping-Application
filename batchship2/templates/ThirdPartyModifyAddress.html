@@ -1,0 +1,108 @@
+<div class="modal fade" id="manageaddress" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+   	<div class="modal-content">
+		<!--<div class="modal-header"><h3>Third Party Billing - Modify Address</h3></div>-->
+    	<div class="modal-body">
+    		<h3>Third Party Billing - Modify Address</h3>
+    		<div class="row">
+    			
+    			
+    			<div class="col-xs-6">
+    				<div class="form-group">
+						<label for="street">Company Name</label>
+						<input type="text" class="form-control" name="companyname" id="companyname" ng-model="thirdpartyAddressSelection.company_name" placeholder="Company Name" required/>
+					</div>
+					<div class="form-group">
+						<label for="street">Street</label>
+						<input type="text" class="form-control" name="street" id="street" ng-model="thirdpartyAddressSelection.street" placeholder="Street" required/>
+					</div>
+					
+					<div class="row">
+						<div class="col-xs-8">	
+							<div class="form-group">
+								<label for="city">City</label>
+								<input type="text" class="form-control" name="city" id="city" ng-model="thirdpartyAddressSelection.city" placeholder="City" required/>
+							</div>
+						</div>
+					
+						<div class="col-xs-4">		
+							<div class="form-group">
+								<label for="state">State</label>
+								<input type="text" class="form-control" name="state" id="state" ng-model="thirdpartyAddressSelection.state" state-Correction placeholder="State" required/>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-5">
+							<div class="form-group">
+								<label for="zip">Zip</label>
+								<input type="text" class="form-control" name="zip" id="zip" ng-model="thirdpartyAddressSelection.zipcode" placeholder="Zip" required/>
+							</div>
+						</div>
+						<div class="col-xs-7">
+							<div class="form-group">
+								<label for="country">Country</label>
+								<input type="text" class="form-control" name="country" id="country" ng-model="thirdpartyAddressSelection.country" country-Correction placeholder="Country" required/>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<!--
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="checkbox">
+					        <label><input type="checkbox" name="markasvalidated" ng-model="currentmarkasvalidated" ng-disabled="viewonly==true"> Mark as validatated</label>
+					    	</div>
+				    	</div>
+					</div>
+					-->
+					<div class="form-group">
+						<label for="Carrier">Carrier</label>
+						<input type="text" class="form-control" name="Carrier" id="Carrier" ng-model="thirdpartyAddressSelection.carrier" placeholder="Carrier" required/>
+					</div>
+					<div class="form-group">
+						<label for="AccountNumber">AccountNumber</label>
+						<input type="text" class="form-control" name="AccountNumber" id="AccountNumber" ng-model="thirdpartyAddressSelection.accountnumber" placeholder="AccountNumber" required/>
+					</div>
+    			</div>
+    			
+				<div class="col-xs-6">
+					<div ng-hide="(viewonly==true) || (validated == true)">
+						<div class="list-group proposed_address">
+							<h4>Proposed Address</h4>
+							<a ng-repeat="listaddress in listofpropaddress" href="#" class="list-group-item" data-id="{{$index}}" prop-Address>
+								<b>{{listaddress.type}}</b><br/>
+								{{listaddress.StreetLines}}<br/>
+							  	{{listaddress.City}}, {{listaddress.StateOrProvinceCode}} {{listaddress.PostalCode}}<br/>
+							  	{{listaddress.CountryCode}}
+							</a>
+						</div>
+					</div>
+				</div>
+    		</div>
+    		<div class="row">
+	    		<div class="col-xs-12">
+	    			<button class="btn btn-success" ng-model="action" ng-click="onClickMarkAsValidated()" ng-disabled="viewonly==true">
+						<span class="glyphicon glyphicon-ok" data-dismiss="modal"></span>&nbsp;Mark As Validated
+					</button>
+					<button name="btn_update" class="btn btn-primary" data-dismiss="modal" ng-click="onClickUpdate()">
+					 	<span class="glyphicon glyphicon-cloud-upload"></span>&nbsp;Save
+					</button>
+				</div>
+			</div>
+    	</div>
+    	<div class="modal-footer">
+    		<button name="btn_cancel" class="btn btn-default" data-dismiss="modal">
+				Cancel
+			</button>
+    		
+    	</div>
+    </div>
+	</div>
+</div>

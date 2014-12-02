@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/UpsAPI
+END
+TimeInTransit.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/UpsAPI/TimeInTransit.php
+END
+RatesAndService.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/UpsAPI/RatesAndService.php
+END
+Tracking.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/UpsAPI/Tracking.php
+END
+XAVUSAddressValidation.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/UpsAPI/XAVUSAddressValidation.php
+END
+USAddressValidation.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/UpsAPI/USAddressValidation.php
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/XML
+END
+Serializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/XML/Serializer.php
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/XML/Parser.php
+END
+Unserializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/XML/Unserializer.php
+END
+Util.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/XML/Util.php
+END
+Beautifier.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/XML/Beautifier.php
+END
+RPC.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/XML/RPC.php
+END

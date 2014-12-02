@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry
+END
+image_graph.reg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/image_graph.reg
+END
+structures_graph.reg
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/structures_graph.reg
+END
+xml_rpc.reg
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/xml_rpc.reg
+END
+xml_parser.reg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/xml_parser.reg
+END
+image_canvas.reg
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/image_canvas.reg
+END
+image_color.reg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/image_color.reg
+END
+log.reg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/log.reg
+END
+mail.reg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/mail.reg
+END
+console_getopt.reg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/console_getopt.reg
+END
+db.reg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/db.reg
+END
+pear.reg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/pear.reg
+END
+archive_tar.reg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/archive_tar.reg
+END
+xml_serializer.reg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/xml_serializer.reg
+END
+mail_mime.reg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/mail_mime.reg
+END
+numbers_words.reg
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/numbers_words.reg
+END
+net_smtp.reg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/net_smtp.reg
+END
+xml_util.reg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/xml_util.reg
+END
+net_socket.reg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/net_socket.reg
+END
+xml_beautifier.reg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/batchship/!svn/ver/129/branches/batchship-2.0/shipping/ups_api/inc/pear/.registry/xml_beautifier.reg
+END
