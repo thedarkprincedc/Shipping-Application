@@ -7,5 +7,4 @@ Shipping-Application
 - Technology
   Bootstrap, Angular.JS, PHP Excel, UPS API, FEDEX API, NPROGRESS, DATE.JS
   
-- What I learned
-  I have learned a lot about this project mostly in the area of REST/SOAP sevices.
+  I have learned a lot working on this project mostly in the area of REST/SOAP sevices.
